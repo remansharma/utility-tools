@@ -8,6 +8,7 @@ const config = {
     }
 };
 
+
 // a client can be shared by different commands.
 const client = new SESv2Client(config);
 
