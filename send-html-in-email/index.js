@@ -15,31 +15,41 @@ const client = new SESv2Client(config);
 (async () => {
     try {
 
+        // variables to be used in the email
+        let FromEmailAddress = "";
+
+        let ToAddresses = [];
+        let CcAddresses = [];
+        let BccAddresses = [];
+
+        let subject = "";
+        let body = "Hello everyone. I am the body";
+        // variables to be used in the email
+
+
         const input = { // SendEmailRequest
-            FromEmailAddress: "reman.sharma@easyres.in",
+            FromEmailAddress: FromEmailAddress,
             Destination: { // Destination
                 ToAddresses: [ // EmailAddressList
-                    "reman.sharma@easyres.in",
+                    ...ToAddresses,
                 ],
                 CcAddresses: [
-                    "reman.sharma@easyres.in",
+                    ...CcAddresses,
                 ],
                 BccAddresses: [
-                    "reman.sharma@easyres.in",
+                    ...BccAddresses,
                 ],
             },
-            ReplyToAddresses: [
-                "reman.sharma@easyres.in",
-            ],
+            ReplyToAddresses: [],
             Content: { // EmailContent
                 Simple: { // Message
                     Subject: { // Content
-                        Data: "subject-is-here", // required
+                        Data: subject, // required
                         Charset: "UTF-8"
                     },
                     Body: { // Body
                         Text: {
-                            Data: "Hello everyone. I am the body", // required
+                            Data: body, // required
                             Charset: "UTF-8"
                         },
                         // Html: {
@@ -76,8 +86,10 @@ const client = new SESv2Client(config);
                 },
             ]
         };
+
         const command = new SendEmailCommand(input);
         const response = await client.send(command);
+
         console.log(response); // successful response
 
 
