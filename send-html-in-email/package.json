@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-sesv2": "^3.563.0"
+    "@aws-sdk/client-sesv2": "^3.563.0",
+    "handlebars": "^4.7.8"
   }
 }
