@@ -1,14 +1,12 @@
-from __future__ import unicode_literals
-import youtube_dl
+from pytube import YouTube
 
+def download_audio(youtube_url, output_path):
+    yt = YouTube(youtube_url)
+    audio = yt.streams.filter(only_audio=True).first()
+    audio.download(output_path)
 
-ydl_opts = {
-    'format': 'bestaudio/best',
-    'postprocessors': [{
-        'key': 'FFmpegExtractAudio',
-        'preferredcodec': 'mp3',
-        'preferredquality': '192',
-    }],
-}
-with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download(["https://www.youtube.com/watch?v=lM8h5Mm6ODo"])
+if __name__ == "__main__":
+    # Example usage
+    youtube_url = "https://www.youtube.com/watch?v=lM8h5Mm6ODo"
+    output_path = "/Users/easyres/Documents/MANAGED/from_git/REMANSHARMA/utility-tools/youtube-video-downloader/"
+    download_audio(youtube_url, output_path)
