@@ -122,6 +122,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
             ]
         };
 
+        // https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/sesv2/command/SendEmailCommand/
         const command = new SendEmailCommand(input);
         const response = await client.send(command);
 

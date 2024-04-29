@@ -1,3 +1,5 @@
+// https://medium.com/@fmoessle/use-html-and-puppeteer-to-create-pdfs-in-node-js-566dbaf9d9ca
+// https://www.bannerbear.com/blog/how-to-convert-html-into-pdf-with-node-js-and-puppeteer/
 import puppeteer from 'puppeteer';
 import Handlebars from 'handlebars';
 import fs from 'fs';
