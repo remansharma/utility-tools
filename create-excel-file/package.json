@@ -1,0 +1,15 @@
+{
+  "name": "create-excel-file",
+  "description": "# xlsx  suggested by https://www.geeksforgeeks.org/how-to-read-and-write-excel-file-in-node-js/ https://www.npmjs.com/package/xlsx 1,852,212 Weekly Downloads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "xlsx": "0.18.5"
+  }
+}
