@@ -22,8 +22,7 @@ worksheet.addRow({id: 2, name: 'Jane Doe', dob: new Date(1965,1,7)});
 
 
 (async()=>{
-
-    let filename = './MyExcel.xlsx';
+    let filename = './MyExcel.csv';
     await workbook.csv.writeFile(filename, {});
 
 })()
