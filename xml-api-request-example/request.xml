@@ -1,0 +1,55 @@
+<soapenv:Envelope 
+  xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+  xmlns:ses="http://www.travelport.com/soa/common/security/SessionContext_v1" 
+  xmlns:air="http://www.travelport.com/schema/air_v52_0" 
+  xmlns:com="http://www.travelport.com/schema/common_v52_0">
+  <soapenv:Body>
+    <air:LowFareSearchReq AuthorizedBy="webAPI" TargetBranch="P7187799" EnablePointToPointSearch="true"
+            EnablePointToPointAlternates="true" SolutionResult="false"
+            PreferCompleteItinerary="true" ReturnUpsellFare="false" IncludeFareInfoMessages="false"
+            ReturnBrandedFares="true" MultiGDSSearch="false" ReturnMM="false" FareInfoRules="false"
+            MostRestrictivePenalties="true" TraceId="1dcc4009-832e-46b1-acad-60264707a842"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0" 
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI" />
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="YUL" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="MNL" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2024-06-06"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="MNL" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="YUL" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2024-06-28"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers DistanceType="MI" IncludeFlightDetails="true" AllowChangeOfAirport="true"
+            ProhibitOvernightLayovers="false" PreferNonStop="false" ExcludeOpenJawAirport="false">
+        <air:PreferredProviders>
+          <com:Provider Code="1G" />
+        </air:PreferredProviders>
+      </air:AirSearchModifiers>
+      <com:SearchPassenger Code="ADT" />
+    </air:LowFareSearchReq>
+  </soapenv:Body>
+</soapenv:Envelope>

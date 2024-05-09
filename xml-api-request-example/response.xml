@@ -1,0 +1,1895 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Body>
+    <air:LowFareSearchRsp xmlns:air="http://www.travelport.com/schema/air_v52_0" xmlns:common_v52_0="http://www.travelport.com/schema/common_v52_0" TraceId="1dcc4009-832e-46b1-acad-60264707a842" TransactionId="5EA4B4E10A0D6A9352360CA4F9704556" ResponseTime="1819" DistanceUnits="MI" CurrencyType="PHP">
+      <common_v52_0:ResponseMessage Code="4034" Type="Warning"><![CDATA[PricePoints are not compatible with PointToPoint or ExpertSolutions. Only PricePoints returned.]]></common_v52_0:ResponseMessage>
+      <air:FlightDetailsList>
+        <air:FlightDetails Key="0UZ/U9TqWDKAicoATAAAAA==" Origin="YUL" Destination="ZRH" DepartureTime="2024-06-06T16:40:00.000-04:00" ArrivalTime="2024-06-07T06:10:00.000+02:00" FlightTime="450" TravelTime="2540" Equipment="333"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAkcoATAAAAA==" Origin="ZRH" Destination="SIN" DepartureTime="2024-06-07T22:40:00.000+02:00" ArrivalTime="2024-06-08T16:55:00.000+08:00" FlightTime="735" TravelTime="2540" Equipment="77W" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAmcoATAAAAA==" Origin="SIN" Destination="MNL" DepartureTime="2024-06-08T19:25:00.000+08:00" ArrivalTime="2024-06-08T23:00:00.000+08:00" FlightTime="215" TravelTime="2540" Equipment="787" OriginTerminal="2" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAocoATAAAAA==" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T21:40:00.000+08:00" ArrivalTime="2024-06-29T01:20:00.000+08:00" FlightTime="220" TravelTime="3200" Equipment="32Y" OriginTerminal="3" DestinationTerminal="4"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAqcoATAAAAA==" Origin="SIN" Destination="ZRH" DepartureTime="2024-06-29T23:35:00.000+08:00" ArrivalTime="2024-06-30T06:15:00.000+02:00" FlightTime="760" TravelTime="3200" Equipment="77W" OriginTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAscoATAAAAA==" Origin="ZRH" Destination="YUL" DepartureTime="2024-06-30T12:40:00.000+02:00" ArrivalTime="2024-06-30T15:00:00.000-04:00" FlightTime="500" TravelTime="3200" Equipment="333"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAucoATAAAAA==" Origin="SIN" Destination="MNL" DepartureTime="2024-06-08T20:55:00.000+08:00" ArrivalTime="2024-06-09T01:00:00.000+08:00" FlightTime="245" TravelTime="2660" Equipment="32Y" OriginTerminal="4" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAwcoATAAAAA==" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T18:30:00.000+08:00" ArrivalTime="2024-06-28T22:20:00.000+08:00" FlightTime="230" TravelTime="1760" Equipment="787" OriginTerminal="3" DestinationTerminal="0"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAycoATAAAAA==" Origin="SIN" Destination="FRA" DepartureTime="2024-06-28T23:40:00.000+08:00" ArrivalTime="2024-06-29T06:35:00.000+02:00" FlightTime="775" TravelTime="1760" Equipment="74H" OriginTerminal="2" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA0coATAAAAA==" Origin="FRA" Destination="YUL" DepartureTime="2024-06-29T09:55:00.000+02:00" ArrivalTime="2024-06-29T11:50:00.000-04:00" FlightTime="475" TravelTime="1760" Equipment="788" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA2coATAAAAA==" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T17:40:00.000+08:00" ArrivalTime="2024-06-28T21:30:00.000+08:00" FlightTime="230" TravelTime="1810" Equipment="32Y" OriginTerminal="3" DestinationTerminal="4"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA4coATAAAAA==" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T18:10:00.000-04:00" ArrivalTime="2024-06-06T19:29:00.000-04:00" FlightTime="79" TravelTime="2220" Equipment="223" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA6coATAAAAA==" Origin="YYZ" Destination="IST" DepartureTime="2024-06-06T21:30:00.000-04:00" ArrivalTime="2024-06-07T14:40:00.000+03:00" FlightTime="610" TravelTime="2220" Equipment="77W" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA8coATAAAAA==" Origin="IST" Destination="MNL" DepartureTime="2024-06-08T02:30:00.000+03:00" ArrivalTime="2024-06-08T19:10:00.000+08:00" FlightTime="700" TravelTime="2220" Equipment="359" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA+coATAAAAA==" Origin="MNL" Destination="IST" DepartureTime="2024-06-28T04:55:00.000+08:00" ArrivalTime="2024-06-28T12:30:00.000+03:00" FlightTime="755" TravelTime="1495" Equipment="359" OriginTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAAdoATAAAAA==" Origin="IST" Destination="YUL" DepartureTime="2024-06-28T14:55:00.000+03:00" ArrivalTime="2024-06-28T17:50:00.000-04:00" FlightTime="595" TravelTime="1495" Equipment="77W"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKACdoATAAAAA==" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T17:10:00.000-04:00" ArrivalTime="2024-06-06T18:36:00.000-04:00" FlightTime="86" TravelTime="2280" Equipment="319" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAFdoATAAAAA==" Origin="IST" Destination="MNL" DepartureTime="2024-06-08T04:05:00.000+03:00" ArrivalTime="2024-06-08T20:45:00.000+08:00" FlightTime="700" TravelTime="2375" Equipment="359" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAHdoATAAAAA==" Origin="IST" Destination="YYZ" DepartureTime="2024-06-28T15:10:00.000+03:00" ArrivalTime="2024-06-28T18:45:00.000-04:00" FlightTime="635" TravelTime="1913" Equipment="77W" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAJdoATAAAAA==" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-28T23:30:00.000-04:00" ArrivalTime="2024-06-29T00:48:00.000-04:00" FlightTime="78" TravelTime="1913" Equipment="7M8" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAMdoATAAAAA==" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T21:10:00.000-04:00" ArrivalTime="2024-06-06T22:36:00.000-04:00" FlightTime="86" TravelTime="1590" Equipment="320" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAOdoATAAAAA==" Origin="YYZ" Destination="TPE" DepartureTime="2024-06-07T01:45:00.000-04:00" ArrivalTime="2024-06-08T05:15:00.000+08:00" FlightTime="930" TravelTime="1590" Equipment="77W" OriginTerminal="1" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAQdoATAAAAA==" Origin="TPE" Destination="MNL" DepartureTime="2024-06-08T09:20:00.000+08:00" ArrivalTime="2024-06-08T11:40:00.000+08:00" FlightTime="140" TravelTime="1590" Equipment="77W" OriginTerminal="2" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKASdoATAAAAA==" Origin="MNL" Destination="TPE" DepartureTime="2024-06-28T18:45:00.000+08:00" ArrivalTime="2024-06-28T21:25:00.000+08:00" FlightTime="160" TravelTime="2583" Equipment="333" OriginTerminal="1" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAUdoATAAAAA==" Origin="TPE" Destination="YYZ" DepartureTime="2024-06-29T19:40:00.000+08:00" ArrivalTime="2024-06-29T21:55:00.000-04:00" FlightTime="855" TravelTime="2583" Equipment="77W" OriginTerminal="2" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAWdoATAAAAA==" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-30T00:30:00.000-04:00" ArrivalTime="2024-06-30T01:48:00.000-04:00" FlightTime="78" TravelTime="2583" Equipment="CR9" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAYdoATAAAAA==" Origin="YUL" Destination="DOH" DepartureTime="2024-06-06T21:35:00.000-04:00" ArrivalTime="2024-06-07T16:45:00.000+03:00" FlightTime="730" TravelTime="1370" Equipment="77W"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAadoATAAAAA==" Origin="DOH" Destination="MNL" DepartureTime="2024-06-07T18:05:00.000+03:00" ArrivalTime="2024-06-08T08:25:00.000+08:00" FlightTime="560" TravelTime="1370" Equipment="77W" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAcdoATAAAAA==" Origin="MNL" Destination="DOH" DepartureTime="2024-06-28T23:50:00.000+08:00" ArrivalTime="2024-06-29T04:15:00.000+03:00" FlightTime="565" TravelTime="1595" Equipment="77W" OriginTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAedoATAAAAA==" Origin="DOH" Destination="YUL" DepartureTime="2024-06-29T08:20:00.000+03:00" ArrivalTime="2024-06-29T14:25:00.000-04:00" FlightTime="785" TravelTime="1595" Equipment="77W"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAgdoATAAAAA==" Origin="MNL" Destination="TPE" DepartureTime="2024-06-28T12:40:00.000+08:00" ArrivalTime="2024-06-28T14:55:00.000+08:00" FlightTime="135" TravelTime="1508" Equipment="77W" OriginTerminal="1" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAidoATAAAAA==" Origin="TPE" Destination="YYZ" DepartureTime="2024-06-28T19:40:00.000+08:00" ArrivalTime="2024-06-28T21:55:00.000-04:00" FlightTime="855" TravelTime="1508" Equipment="77W" OriginTerminal="2" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAkdoATAAAAA==" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-29T00:30:00.000-04:00" ArrivalTime="2024-06-29T01:48:00.000-04:00" FlightTime="78" TravelTime="1508" Equipment="CR9" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAmdoATAAAAA==" Origin="YUL" Destination="DXB" DepartureTime="2024-06-06T10:20:00.000-04:00" ArrivalTime="2024-06-07T06:30:00.000+04:00" FlightTime="730" TravelTime="1430" Equipment="77L" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAodoATAAAAA==" Origin="DXB" Destination="MNL" DepartureTime="2024-06-07T09:10:00.000+04:00" ArrivalTime="2024-06-07T22:10:00.000+08:00" FlightTime="540" TravelTime="1430" Equipment="77W" OriginTerminal="3" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAqdoATAAAAA==" Origin="DXB" Destination="MNL" DepartureTime="2024-06-07T17:00:00.000+04:00" ArrivalTime="2024-06-08T05:55:00.000+08:00" FlightTime="535" TravelTime="1895" Equipment="77W" OriginTerminal="3" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAsdoATAAAAA==" Origin="MNL" Destination="DXB" DepartureTime="2024-06-28T18:15:00.000+08:00" ArrivalTime="2024-06-28T23:00:00.000+04:00" FlightTime="525" TravelTime="1545" Equipment="77W" OriginTerminal="3" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAudoATAAAAA==" Origin="DXB" Destination="YUL" DepartureTime="2024-06-29T02:30:00.000+04:00" ArrivalTime="2024-06-29T08:00:00.000-04:00" FlightTime="810" TravelTime="1545" Equipment="77L" OriginTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAwdoATAAAAA==" Origin="MNL" Destination="DXB" DepartureTime="2024-06-28T23:55:00.000+08:00" ArrivalTime="2024-06-29T04:30:00.000+04:00" FlightTime="515" TravelTime="2645" Equipment="77W" OriginTerminal="3" DestinationTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAydoATAAAAA==" Origin="DXB" Destination="YUL" DepartureTime="2024-06-30T02:30:00.000+04:00" ArrivalTime="2024-06-30T08:00:00.000-04:00" FlightTime="810" TravelTime="2645" Equipment="77L" OriginTerminal="3"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA0doATAAAAA==" Origin="YUL" Destination="JFK" DepartureTime="2024-06-06T06:00:00.000-04:00" ArrivalTime="2024-06-06T07:45:00.000-04:00" FlightTime="105" TravelTime="1685" Equipment="CR9" DestinationTerminal="4"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA2doATAAAAA==" Origin="JFK" Destination="ICN" DepartureTime="2024-06-06T13:30:00.000-04:00" ArrivalTime="2024-06-07T17:50:00.000+09:00" FlightTime="920" TravelTime="1685" Equipment="388" OriginTerminal="1" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA4doATAAAAA==" Origin="ICN" Destination="MNL" DepartureTime="2024-06-07T18:45:00.000+09:00" ArrivalTime="2024-06-07T22:05:00.000+08:00" FlightTime="260" TravelTime="1685" Equipment="333" OriginTerminal="2" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA6doATAAAAA==" Origin="YUL" Destination="DTW" DepartureTime="2024-06-06T07:10:00.000-04:00" ArrivalTime="2024-06-06T09:05:00.000-04:00" FlightTime="115" TravelTime="1615" Equipment="CR9" DestinationTerminal="EM"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA8doATAAAAA==" Origin="DTW" Destination="ICN" DepartureTime="2024-06-06T13:40:00.000-04:00" ArrivalTime="2024-06-07T17:20:00.000+09:00" FlightTime="880" TravelTime="1615" Equipment="359" OriginTerminal="EM" DestinationTerminal="2"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKA+doATAAAAA==" Origin="MNL" Destination="NRT" DepartureTime="2024-06-28T09:10:00.000+08:00" ArrivalTime="2024-06-28T14:50:00.000+09:00" FlightTime="280" TravelTime="1205" Equipment="789" OriginTerminal="3" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAAeoATAAAAA==" Origin="NRT" Destination="YUL" DepartureTime="2024-06-28T17:45:00.000+09:00" ArrivalTime="2024-06-28T17:15:00.000-04:00" FlightTime="750" TravelTime="1205" Equipment="77W" OriginTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKACeoATAAAAA==" Origin="YUL" Destination="NRT" DepartureTime="2024-06-06T12:50:00.000-04:00" ArrivalTime="2024-06-07T15:25:00.000+09:00" FlightTime="815" TravelTime="1205" Equipment="77W" DestinationTerminal="1"/>
+        <air:FlightDetails Key="0UZ/U9TqWDKAEeoATAAAAA==" Origin="NRT" Destination="MNL" DepartureTime="2024-06-07T17:15:00.000+09:00" ArrivalTime="2024-06-07T20:55:00.000+08:00" FlightTime="280" TravelTime="1205" Equipment="789" OriginTerminal="1" DestinationTerminal="3"/>
+      </air:FlightDetailsList>
+      <air:AirSegmentList>
+        <air:AirSegment Key="0UZ/U9TqWDKAhcoATAAAAA==" Group="0" Carrier="LX" FlightNumber="87" Origin="YUL" Destination="ZRH" DepartureTime="2024-06-06T16:40:00.000-04:00" ArrivalTime="2024-06-07T06:10:00.000+02:00" FlightTime="450" Distance="3719" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAicoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAjcoATAAAAA==" Group="0" Carrier="LX" FlightNumber="176" Origin="ZRH" Destination="SIN" DepartureTime="2024-06-07T22:40:00.000+02:00" ArrivalTime="2024-06-08T16:55:00.000+08:00" FlightTime="735" Distance="6404" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAkcoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAlcoATAAAAA==" Group="0" Carrier="SQ" FlightNumber="918" Origin="SIN" Destination="MNL" DepartureTime="2024-06-08T19:25:00.000+08:00" ArrivalTime="2024-06-08T23:00:00.000+08:00" FlightTime="215" Distance="1476" ETicketability="Yes" Equipment="787" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAmcoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAncoATAAAAA==" Group="1" Carrier="3K" FlightNumber="766" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T21:40:00.000+08:00" ArrivalTime="2024-06-29T01:20:00.000+08:00" FlightTime="220" Distance="1476" ETicketability="Yes" Equipment="32Y" ChangeOfPlane="false" ParticipantLevel="Guar against alpha AVS" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAocoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKApcoATAAAAA==" Group="1" Carrier="LX" FlightNumber="177" Origin="SIN" Destination="ZRH" DepartureTime="2024-06-29T23:35:00.000+08:00" ArrivalTime="2024-06-30T06:15:00.000+02:00" FlightTime="760" Distance="6404" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAqcoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKArcoATAAAAA==" Group="1" Carrier="LX" FlightNumber="86" Origin="ZRH" Destination="YUL" DepartureTime="2024-06-30T12:40:00.000+02:00" ArrivalTime="2024-06-30T15:00:00.000-04:00" FlightTime="500" Distance="3719" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAscoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAtcoATAAAAA==" Group="0" Carrier="3K" FlightNumber="767" Origin="SIN" Destination="MNL" DepartureTime="2024-06-08T20:55:00.000+08:00" ArrivalTime="2024-06-09T01:00:00.000+08:00" FlightTime="245" Distance="1476" ETicketability="Yes" Equipment="32Y" ChangeOfPlane="false" ParticipantLevel="Guar against alpha AVS" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAucoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAvcoATAAAAA==" Group="1" Carrier="SQ" FlightNumber="921" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T18:30:00.000+08:00" ArrivalTime="2024-06-28T22:20:00.000+08:00" FlightTime="230" Distance="1476" ETicketability="Yes" Equipment="787" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAwcoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAxcoATAAAAA==" Group="1" Carrier="LH" FlightNumber="779" Origin="SIN" Destination="FRA" DepartureTime="2024-06-28T23:40:00.000+08:00" ArrivalTime="2024-06-29T06:35:00.000+02:00" FlightTime="775" Distance="6388" ETicketability="Yes" Equipment="74H" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAycoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAzcoATAAAAA==" Group="1" Carrier="LH" FlightNumber="6794" Origin="FRA" Destination="YUL" DepartureTime="2024-06-29T09:55:00.000+02:00" ArrivalTime="2024-06-29T11:50:00.000-04:00" FlightTime="475" Distance="3631" ETicketability="Yes" Equipment="788" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="845">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA0coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA1coATAAAAA==" Group="1" Carrier="3K" FlightNumber="764" Origin="MNL" Destination="SIN" DepartureTime="2024-06-28T17:40:00.000+08:00" ArrivalTime="2024-06-28T21:30:00.000+08:00" FlightTime="230" Distance="1476" ETicketability="Yes" Equipment="32Y" ChangeOfPlane="false" ParticipantLevel="Guar against alpha AVS" PolledAvailabilityOption="No polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA2coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA3coATAAAAA==" Group="0" Carrier="AC" FlightNumber="423" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T18:10:00.000-04:00" ArrivalTime="2024-06-06T19:29:00.000-04:00" FlightTime="79" Distance="319" ETicketability="Yes" Equipment="223" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA4coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA5coATAAAAA==" Group="0" Carrier="TK" FlightNumber="18" Origin="YYZ" Destination="IST" DepartureTime="2024-06-06T21:30:00.000-04:00" ArrivalTime="2024-06-07T14:40:00.000+03:00" FlightTime="610" Distance="5092" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA6coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA7coATAAAAA==" Group="0" Carrier="TK" FlightNumber="84" Origin="IST" Destination="MNL" DepartureTime="2024-06-08T02:30:00.000+03:00" ArrivalTime="2024-06-08T19:10:00.000+08:00" FlightTime="700" Distance="5671" ETicketability="Yes" Equipment="359" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA8coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA9coATAAAAA==" Group="1" Carrier="TK" FlightNumber="265" Origin="MNL" Destination="IST" DepartureTime="2024-06-28T04:55:00.000+08:00" ArrivalTime="2024-06-28T12:30:00.000+03:00" FlightTime="755" Distance="5671" ETicketability="Yes" Equipment="359" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA+coATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA/coATAAAAA==" Group="1" Carrier="TK" FlightNumber="35" Origin="IST" Destination="YUL" DepartureTime="2024-06-28T14:55:00.000+03:00" ArrivalTime="2024-06-28T17:50:00.000-04:00" FlightTime="595" Distance="4787" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAAdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKABdoATAAAAA==" Group="0" Carrier="TK" FlightNumber="8691" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T17:10:00.000-04:00" ArrivalTime="2024-06-06T18:36:00.000-04:00" FlightTime="86" Distance="319" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="421">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKACdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAEdoATAAAAA==" Group="0" Carrier="TK" FlightNumber="264" Origin="IST" Destination="MNL" DepartureTime="2024-06-08T04:05:00.000+03:00" ArrivalTime="2024-06-08T20:45:00.000+08:00" FlightTime="700" Distance="5671" ETicketability="Yes" Equipment="359" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAFdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAGdoATAAAAA==" Group="1" Carrier="TK" FlightNumber="17" Origin="IST" Destination="YYZ" DepartureTime="2024-06-28T15:10:00.000+03:00" ArrivalTime="2024-06-28T18:45:00.000-04:00" FlightTime="635" Distance="5092" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAHdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAIdoATAAAAA==" Group="1" Carrier="AC" FlightNumber="432" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-28T23:30:00.000-04:00" ArrivalTime="2024-06-29T00:48:00.000-04:00" FlightTime="78" Distance="319" ETicketability="Yes" Equipment="7M8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAJdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAKdoATAAAAA==" Group="1" Carrier="TK" FlightNumber="8690" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-28T23:30:00.000-04:00" ArrivalTime="2024-06-29T00:48:00.000-04:00" FlightTime="78" Distance="319" ETicketability="Yes" Equipment="7M8" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="432">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAJdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKADdoATAAAAA==" Group="0" Carrier="AC" FlightNumber="421" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T17:10:00.000-04:00" ArrivalTime="2024-06-06T18:36:00.000-04:00" FlightTime="86" Distance="319" ETicketability="Yes" Equipment="319" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail used" OptionalServicesIndicator="false" AvailabilitySource="S" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKACdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKALdoATAAAAA==" Group="0" Carrier="BR" FlightNumber="3091" Origin="YUL" Destination="YYZ" DepartureTime="2024-06-06T21:10:00.000-04:00" ArrivalTime="2024-06-06T22:36:00.000-04:00" FlightTime="86" Distance="319" ETicketability="Yes" Equipment="320" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="429">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAMdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKANdoATAAAAA==" Group="0" Carrier="BR" FlightNumber="35" Origin="YYZ" Destination="TPE" DepartureTime="2024-06-07T01:45:00.000-04:00" ArrivalTime="2024-06-08T05:15:00.000+08:00" FlightTime="930" Distance="7508" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAOdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAPdoATAAAAA==" Group="0" Carrier="BR" FlightNumber="271" Origin="TPE" Destination="MNL" DepartureTime="2024-06-08T09:20:00.000+08:00" ArrivalTime="2024-06-08T11:40:00.000+08:00" FlightTime="140" Distance="731" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAQdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKARdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="278" Origin="MNL" Destination="TPE" DepartureTime="2024-06-28T18:45:00.000+08:00" ArrivalTime="2024-06-28T21:25:00.000+08:00" FlightTime="160" Distance="731" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKASdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKATdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="36" Origin="TPE" Destination="YYZ" DepartureTime="2024-06-29T19:40:00.000+08:00" ArrivalTime="2024-06-29T21:55:00.000-04:00" FlightTime="855" Distance="7508" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAUdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAVdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="3090" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-30T00:30:00.000-04:00" ArrivalTime="2024-06-30T01:48:00.000-04:00" FlightTime="78" Distance="319" ETicketability="Yes" Equipment="CR9" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="7774">AIR CANADA EXPRESS - JAZZ</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAWdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAXdoATAAAAA==" Group="0" Carrier="QR" FlightNumber="764" Origin="YUL" Destination="DOH" DepartureTime="2024-06-06T21:35:00.000-04:00" ArrivalTime="2024-06-07T16:45:00.000+03:00" FlightTime="730" Distance="6460" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAYdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAZdoATAAAAA==" Group="0" Carrier="QR" FlightNumber="934" Origin="DOH" Destination="MNL" DepartureTime="2024-06-07T18:05:00.000+03:00" ArrivalTime="2024-06-08T08:25:00.000+08:00" FlightTime="560" Distance="4526" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAadoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAbdoATAAAAA==" Group="1" Carrier="QR" FlightNumber="929" Origin="MNL" Destination="DOH" DepartureTime="2024-06-28T23:50:00.000+08:00" ArrivalTime="2024-06-29T04:15:00.000+03:00" FlightTime="565" Distance="4526" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAcdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAddoATAAAAA==" Group="1" Carrier="QR" FlightNumber="763" Origin="DOH" Destination="YUL" DepartureTime="2024-06-29T08:20:00.000+03:00" ArrivalTime="2024-06-29T14:25:00.000-04:00" FlightTime="785" Distance="6460" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAedoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAfdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="272" Origin="MNL" Destination="TPE" DepartureTime="2024-06-28T12:40:00.000+08:00" ArrivalTime="2024-06-28T14:55:00.000+08:00" FlightTime="135" Distance="731" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAgdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAhdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="36" Origin="TPE" Destination="YYZ" DepartureTime="2024-06-28T19:40:00.000+08:00" ArrivalTime="2024-06-28T21:55:00.000-04:00" FlightTime="855" Distance="7508" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAidoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAjdoATAAAAA==" Group="1" Carrier="BR" FlightNumber="3090" Origin="YYZ" Destination="YUL" DepartureTime="2024-06-29T00:30:00.000-04:00" ArrivalTime="2024-06-29T01:48:00.000-04:00" FlightTime="78" Distance="319" ETicketability="Yes" Equipment="CR9" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="P" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="7774">AIR CANADA EXPRESS - JAZZ</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAkdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAldoATAAAAA==" Group="0" Carrier="EK" FlightNumber="244" Origin="YUL" Destination="DXB" DepartureTime="2024-06-06T10:20:00.000-04:00" ArrivalTime="2024-06-07T06:30:00.000+04:00" FlightTime="730" Distance="6599" ETicketability="Yes" Equipment="77L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAmdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAndoATAAAAA==" Group="0" Carrier="EK" FlightNumber="334" Origin="DXB" Destination="MNL" DepartureTime="2024-06-07T09:10:00.000+04:00" ArrivalTime="2024-06-07T22:10:00.000+08:00" FlightTime="540" Distance="4300" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAodoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKApdoATAAAAA==" Group="0" Carrier="EK" FlightNumber="336" Origin="DXB" Destination="MNL" DepartureTime="2024-06-07T17:00:00.000+04:00" ArrivalTime="2024-06-08T05:55:00.000+08:00" FlightTime="535" Distance="4300" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAqdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKArdoATAAAAA==" Group="1" Carrier="EK" FlightNumber="333" Origin="MNL" Destination="DXB" DepartureTime="2024-06-28T18:15:00.000+08:00" ArrivalTime="2024-06-28T23:00:00.000+04:00" FlightTime="525" Distance="4300" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAsdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAtdoATAAAAA==" Group="1" Carrier="EK" FlightNumber="243" Origin="DXB" Destination="YUL" DepartureTime="2024-06-29T02:30:00.000+04:00" ArrivalTime="2024-06-29T08:00:00.000-04:00" FlightTime="810" Distance="6599" ETicketability="Yes" Equipment="77L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAudoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAvdoATAAAAA==" Group="1" Carrier="EK" FlightNumber="335" Origin="MNL" Destination="DXB" DepartureTime="2024-06-28T23:55:00.000+08:00" ArrivalTime="2024-06-29T04:30:00.000+04:00" FlightTime="515" Distance="4300" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAwdoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAxdoATAAAAA==" Group="1" Carrier="EK" FlightNumber="243" Origin="DXB" Destination="YUL" DepartureTime="2024-06-30T02:30:00.000+04:00" ArrivalTime="2024-06-30T08:00:00.000-04:00" FlightTime="810" Distance="6599" ETicketability="Yes" Equipment="77L" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAydoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKAzdoATAAAAA==" Group="0" Carrier="KE" FlightNumber="7377" Origin="YUL" Destination="JFK" DepartureTime="2024-06-06T06:00:00.000-04:00" ArrivalTime="2024-06-06T07:45:00.000-04:00" FlightTime="105" Distance="331" ETicketability="Yes" Equipment="CR9" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="DL" OperatingFlightNumber="5139">ENDEAVOR AIR DBA DELTA CONNECTION</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA0doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA1doATAAAAA==" Group="0" Carrier="KE" FlightNumber="82" Origin="JFK" Destination="ICN" DepartureTime="2024-06-06T13:30:00.000-04:00" ArrivalTime="2024-06-07T17:50:00.000+09:00" FlightTime="920" Distance="6880" ETicketability="Yes" Equipment="388" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA2doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA3doATAAAAA==" Group="0" Carrier="KE" FlightNumber="623" Origin="ICN" Destination="MNL" DepartureTime="2024-06-07T18:45:00.000+09:00" ArrivalTime="2024-06-07T22:05:00.000+08:00" FlightTime="260" Distance="1627" ETicketability="Yes" Equipment="333" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA4doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA5doATAAAAA==" Group="0" Carrier="KE" FlightNumber="3362" Origin="YUL" Destination="DTW" DepartureTime="2024-06-06T07:10:00.000-04:00" ArrivalTime="2024-06-06T09:05:00.000-04:00" FlightTime="115" Distance="527" ETicketability="Yes" Equipment="CR9" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="DL" OperatingFlightNumber="5079">ENDEAVOR AIR DBA DELTA CONNECTION</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA6doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA7doATAAAAA==" Group="0" Carrier="KE" FlightNumber="7274" Origin="DTW" Destination="ICN" DepartureTime="2024-06-06T13:40:00.000-04:00" ArrivalTime="2024-06-07T17:20:00.000+09:00" FlightTime="880" Distance="6612" ETicketability="Yes" Equipment="359" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="Q" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="DL" OperatingFlightNumber="159">DELTA AIR LINES</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA8doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA9doATAAAAA==" Group="1" Carrier="NH" FlightNumber="820" Origin="MNL" Destination="NRT" DepartureTime="2024-06-28T09:10:00.000+08:00" ArrivalTime="2024-06-28T14:50:00.000+09:00" FlightTime="280" Distance="1880" ETicketability="Yes" Equipment="789" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKA+doATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKA/doATAAAAA==" Group="1" Carrier="NH" FlightNumber="6826" Origin="NRT" Destination="YUL" DepartureTime="2024-06-28T17:45:00.000+09:00" ArrivalTime="2024-06-28T17:15:00.000-04:00" FlightTime="750" Distance="6450" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="6">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAAeoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKABeoATAAAAA==" Group="0" Carrier="NH" FlightNumber="6827" Origin="YUL" Destination="NRT" DepartureTime="2024-06-06T12:50:00.000-04:00" ArrivalTime="2024-06-07T15:25:00.000+09:00" FlightTime="815" Distance="6450" ETicketability="Yes" Equipment="77W" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:CodeshareInfo OperatingCarrier="AC" OperatingFlightNumber="5">AIR CANADA</air:CodeshareInfo>
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKACeoATAAAAA=="/>
+        </air:AirSegment>
+        <air:AirSegment Key="0UZ/U9TqWDKADeoATAAAAA==" Group="0" Carrier="NH" FlightNumber="819" Origin="NRT" Destination="MNL" DepartureTime="2024-06-07T17:15:00.000+09:00" ArrivalTime="2024-06-07T20:55:00.000+08:00" FlightTime="280" Distance="1880" ETicketability="Yes" Equipment="789" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+          <air:AirAvailInfo ProviderCode="1G"/>
+          <air:FlightDetailsRef Key="0UZ/U9TqWDKAEeoATAAAAA=="/>
+        </air:AirSegment>
+      </air:AirSegmentList>
+      <air:FareInfoList>
+        <air:FareInfo Key="0UZ/U9TqWDKAFeoATAAAAA==" FareBasis="KNCCA" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP8015" NegotiatedFare="false" NotValidBefore="2024-06-08" NotValidAfter="2024-06-08">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" ProviderCode="1G">gws-eJxNTssKwzAM+5iiu5y06TXBZZelhrEW1sv+/zPmJBvMYEu2/Mo5B4aZizD/24T3VF+wUwFDcN+tQuaYCPHsApkW3E21oG9ITF63rg2U3rXNNzpAo8qQmuEa8ayujbV0gnb3+UBLfAY/Ug6nVrZjpxahrGT8Slzhj34AY10rfg==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKA8moATAAAAA==" BrandID="1399348" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAfeoATAAAAA==" FareBasis="KNCCA" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP8005" NegotiatedFare="false" NotValidBefore="2024-06-30" NotValidAfter="2024-06-30">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" ProviderCode="1G">gws-eJxNTrsOgzAM/Bh0+zkJoWMioy4ETyCVpf//GTUBpFqy7+zzq5QSGBJHYfm3Ad+hfWC7AobgfuwNkmLmlYHMIxZTregbcnh53bp2ofSuOb3pAI0qXTrM7Y6rNdeutXSC825ccCY+g4fUzanVeVupVSgTGW+JE/zRH2gnK2g=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKA+moATAAAAA==" BrandID="1399348" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA0eoATAAAAA==" FareBasis="KNCCA" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP8005" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" ProviderCode="1G">gws-eJxNTssKwzAM+5iiu5y06Y4JLmOw1DDWHnrZ/3/G3KSDGWzJll8558AwchLmfxvwGeoDtitgCO7HXiFjTOwZyDThaaoFbUMKN69b0zpK61rGOx2gUaVJh7ldcbXqWl9LJzjvvl84E5/Bj5TNqZVlW6lFKDMZL4kz/NEvZQkrbg==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAAnoATAAAAA==" BrandID="1403972" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAUeoATAAAAA==" FareBasis="LNCCA" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP11093" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" ProviderCode="1G">gws-eJxNTkkOgzAMfAya+zgJ2y2RUVWpwSc4cOn/n1ETQKole8YebznnwJDYC/O/dfh29Q3bFTAE92OvkHma05WBHHpUUy1oG4Ywed2adqG0riW96ACNKk06zO2Oq1XXrrV0gvNu/OBMfAYPKZtTK8u2UotQRjLeEkf4oz9sPStr</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKACnoATAAAAA==" BrandID="1403972" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKALfoATAAAAA==" FareBasis="VKV3XPX" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP10535" NegotiatedFare="false" NotValidBefore="2024-06-08" NotValidAfter="2024-06-08">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAhfoATAAAAA==" Type="Other" Amount="NUC60.00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" ProviderCode="1G">gws-eJxNjjEOwzAIRQ8T/R1obDLaStIlqZXBieyl9z9GcdxK/RLw0UNACEFIRnJM4V8D3kPekM4ZSBCLV9rBMukItq6CyDtc2/UoR8G9w5M3km7aK99zi87OClZ9akdNqD2fuzGe2mIyg3Y52lVqAn4mZrMpLvlYizKxEInWLySFPfsBUD0s9Q==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAEnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAifoATAAAAA==" FareBasis="LKV3XPX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP11909" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:FareSurcharge Key="0UZ/U9TqWDKA1foATAAAAA==" Type="Other" Amount="NUC51.64"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAifoATAAAAA==" ProviderCode="1G">gws-eJxNjrEOgzAMRD8G3W4HEtMtCOhCajGEKln6/59RE6hUS/Gd9XxJYoyO3ECeKf5Xh0+XN+gxAwpnpx4JHPgxXBOIgkfa3n3ZC9odwY1GtNFLue0tMnsTrPKUhqpa3f2lyZjj3o+mxDhfxmktgZ+ZslmdlryvRZjYWUTqDUlgX/0C9UUsbQ==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAGnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA2foATAAAAA==" FareBasis="LKV3XPX" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP12388" NegotiatedFare="false" NotValidBefore="2024-06-08" NotValidAfter="2024-06-08">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAQgoATAAAAA==" Type="Other" Amount="NUC60.00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" ProviderCode="1G">gws-eJxNjj0OwzAIhQ8TvR1obNTNUZIuca0MTmUvvf8xiu1WKhLw0MdfCEFIZnJM4d8mvKd8IF0rkCDmzxTBnu8z2KoKIu8Qj9etnAV9hydvJHU6Mve+TVdnCbs+dKBmqCNe0ZhIW0xEjHYZTdoEfmLJJtOy5XMvysRiI1q/kBT26gfoZSxc</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAInoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKARgoATAAAAA==" FareBasis="LKV3XPX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP11909" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAogoATAAAAA==" Type="Other" Amount="NUC51.64"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKARgoATAAAAA==" ProviderCode="1G">gws-eJxNjrEOgzAMRD8G3W4HEtMtCOhCajGEKln6/59RE6hUS/Gd9XxJYoyO3ECeKf5Xh0+XN+gxAwpnpx4JHPgxXBOIgkfa3n3ZC9odwY1GtNFLue0tMnsTrPKUhqpa3f2lyZjj3o+mxDhfxmktgZ+ZslmdlryvRZjYWUTqDUlgX/0C9UUsbQ==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAKnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAXfoATAAAAA==" FareBasis="SKV3XPX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP30029" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAYfoATAAAAA==" Type="Other" Amount="NUC51.64"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAXfoATAAAAA==" ProviderCode="1G">gws-eJxNjtEOgzAIRT/G3HeKtvSxjboXHTFZXerL/v8zhtUluwlcyCFASomJB/KO0r86fLqyQPcRULDFsa8YYvDx6kAUPF7Lu69bRdsROBrRRi93bW6S0Zthloc0dKjpzk9djfk+MpuTw3k521U6BfyKXKzUPJVtruLIMRHLcUMS2LNfXtAtAw==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAMnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKACgoATAAAAA==" FareBasis="SKV3XPX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP30029" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:FareSurcharge Key="0UZ/U9TqWDKADgoATAAAAA==" Type="Other" Amount="NUC51.64"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKACgoATAAAAA==" ProviderCode="1G">gws-eJxNjtEOgzAIRT/G3HeKtvSxRt2LjpisLu3L/v8zhtUlI4F7yWmBlBITD+Qdpf/o8OnyCj0mQMGW9dgwxODj1YEoeLzWd1/2gjYjcDSijV7q2rtZJm+CRR7SUFWLuz51M+b7yGxKDudmnNZ+4GfGbFbHOe9LEUeOiVjqDUlgp34B/3Isfw==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAOnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKApgoATAAAAA==" FareBasis="HKVRT" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP33954" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKApgoATAAAAA==" ProviderCode="1G">gws-eJxNTkEKwzAMe0zRXfbWZLsltCuDdjmUdJDL/v+MOUkHE9iyLSM7hKDUK0dh+MeAz5BXpGMCEtTilTY43i4Ksa6AdCOe63vPaA6OzuapaZ2lbU3jfDfCwsV3qQKl52OrRs2WpKDejXaTFcCviNnKFOf82OmFoqT6cor0sFe/1fksJA==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAQnoATAAAAA==" BrandID="1361028" BrandTier="0009"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA1goATAAAAA==" FareBasis="LKV3XPX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP11922" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:FareSurcharge Key="0UZ/U9TqWDKA2goATAAAAA==" Type="Other" Amount="NUC51.64"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>1</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA1goATAAAAA==" ProviderCode="1G">gws-eJxNjrEOgzAMRD8G3W4HEtMtCOhCajGEKln6/59RE6hUS/Gd9XxJYoyO3ECeKf5Xh0+XN+gxAwpnpx4JHPgxXBOIgkfa3n3ZC9odwY1GtNFLue0tMnsTrPKUhqpa3f2lyZjj3o+mxDhfxmktgZ+ZslmdlryvRZjYWUTqDUlgX/0C9UUsbQ==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKASnoATAAAAA==" BrandID="1361031" BrandTier="0006"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA+goATAAAAA==" FareBasis="HKWNZ" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP51476" NegotiatedFare="false" NotValidBefore="2024-06-08" NotValidAfter="2024-06-08">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAUhoATAAAAA==" Type="Other" Amount="NUC11.06"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" ProviderCode="1G">gws-eJxNTtsKwjAM/Zhx3pPUre1bp1IEZxBxyHzw/z9jSatgIDknObmVUoTkQCNT+bcBn+H4gK4nQCHmN12QmTmDLdtARAGX60vfaBsmmqyuTevIraumGgxQuVKX3LD1uC6mZREZfSHD78KpTeBH7rNRnc/PFNjPUgoU41ekCHt0B2c2KzQ=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAUnoATAAAAA==" BrandID="1411233" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAVhoATAAAAA==" FareBasis="VKWNZ" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP37887" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAphoATAAAAA==" Type="Other" Amount="NUC11.06"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAVhoATAAAAA==" ProviderCode="1G">gws-eJxNTssOwjAM+5jJd6eFpscOUC+MCCEGGgf+/zNIW5CIlNiJ8yqlBIYd98LybxPe0+EGW4+AIbhv64KUVGVkIBnxOD/thb4hhex169pA6V011+iAKpVd2sztGy+2uJY0q7aFgnYXjfoEfuQ6O7X5dM9R2lnmyDHgIhX+6AeCjitn</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAWnoATAAAAA==" BrandID="1411234" BrandTier="0002"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAqhoATAAAAA==" FareBasis="SKR5R1SX" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP37935" NegotiatedFare="false" NotValidBefore="2024-06-07" NotValidAfter="2024-06-07">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAAioATAAAAA==" Type="Other" Amount="NUC25.00"/>
+          <air:FareSurcharge Key="0UZ/U9TqWDKABioATAAAAA==" Type="Other" Amount="NUC5.00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAqhoATAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlu4kSut5SretlXaSlrbRc9v9njCSbNCTAYDDEGB2dZxDGfxvwHp4Z6bwCCc78kTaon9RDrCogNWC/55Blf6GJKNWo1OiepQ0u0+1iCStX7VQ1lB7PrWqNVZmkoJ5GhbaBH5gPg2lejlyoQrGe+1IcYZ9+AMFYLAg=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAYnoATAAAAA==" BrandID="1245055" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA4hoATAAAAA==" FareBasis="LKR5R1SX" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP41874" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:FareSurcharge Key="0UZ/U9TqWDKA5hoATAAAAA==" Type="Other" Amount="NUC5.00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA4hoATAAAAA==" ProviderCode="1G">gws-eJxNjtEOgzAIRT/G3PdLI9W91cz5so5knSbry/7/M4bVJSMBLpwWSCkFhp4qTP/W4dM9C2y7AobgXreMoVfVowIZFfletMjrjTYkhtGRNXxkaQ/ny230hIVLbKia2xkflp0NSp9MUrCvxi79B35iWl3aNK+lMgrFe+FEHOCXfgHF6SwE</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAanoATAAAAA==" BrandID="1245055" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAKhoATAAAAA==" FareBasis="QKWNZ" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP47359" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:FareSurcharge Key="0UZ/U9TqWDKALhoATAAAAA==" Type="Other" Amount="NUC11.06"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAKhoATAAAAA==" ProviderCode="1G">gws-eJxNTssOwkAI/Jhm7rCswnGrzV6sRI2NqQf//zNktzWRBGZgeJVSEqVMB6bybwM+w+kBX86AI4WvywwTzbxlICLB/fLyN/qGY7Koe9c25N5VrUoAKlfq0uphe7z6HJply9oWMtpdNBoT+JHbGNTH6WnC7SyZkOoukiIe/QJ8hSta</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAcnoATAAAAA==" BrandID="1411233" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKACioATAAAAA==" FareBasis="XKRZFCA1" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP84771" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKACioATAAAAA==" ProviderCode="1G">gws-eJxNTrsOwjAM/Jjq9nMgScdEoVlaPKBWogz8/2fgJCBhy/bZ51dKydFd6YXpXya8p2WFHgVQOLO7bhAvc5whlp4gg8dzfbxqyYK+JTAYpZ0eUXpjuRSxgCqVg2qCc/hjA7+bSQrabTRoE/iBvBvUfNvtGE2js+KgGGGvfgDMzyvO</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAenoATAAAAA==" BrandID="1380522" BrandTier="0004"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKANioATAAAAA==" FareBasis="BKEESCA1" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP60886" NegotiatedFare="false" NotValidBefore="2024-06-29" NotValidAfter="2024-06-29">
+          <air:FareSurcharge Key="0UZ/U9TqWDKAOioATAAAAA==" Type="Weekend Surcharge" Amount="NUC36.89"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKANioATAAAAA==" ProviderCode="1G">gws-eJxNTrsSgzAM+xhOuxyaAFvSNCxQL8DA0v//jJqE3tV3tmVLfsQYHd2DXhj/rcOnKwv0yIDCmZ/HCqHvp9BKkMHjuZSy5SSoW4IbjdJKtyxVmPssljDLzEqdanbHt66gcOLoTUPBdRsXtAn8QNoNanrtdszUMjhrNooD7NUvvSErpg==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAgnoATAAAAA==" BrandID="1380518" BrandTier="0003"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAbioATAAAAA==" FareBasis="YRT" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP136185" NegotiatedFare="false">
+          <air:FareSurcharge Key="0UZ/U9TqWDKA0ioATAAAAA==" Type="Other" Amount="NUC166.00"/>
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" ProviderCode="1G">gws-eJxNTkEOwyAMe0zlewiDkRvVNi7r0DS1By77/zNm0sssBQccO9RaVfQiKUj9x4Lv8nygHzegQ1mvvkH1Gk0ReB0QkYjx2eEBWTJfuysnB59pqQkJTcguTWCc57GB5mgMZVzAXIvZ0kFIKbHgvbLt631PLkRXxcwyaOEvf9E2KoU=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAinoATAAAAA==" BrandFound="false"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA1ioATAAAAA==" FareBasis="YFF77WW" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP226744" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" ProviderCode="1G">gws-eJxNTrsOgzAM/Bh0u+2CIVsiHktTDxUozdL//4yawNCT/DidfXaMUUh6GpjiPzp8u/yBHTNgEI96ZPSkwnRREOmAum3jWAqaicrkijX1qtzmZl6CF6y6apOqOe78sgy6jYmIcZ5+PHES33EwDyEg7d5aWvb0LoWJm8qik68x/NcfELYsoA==</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAknoATAAAAA==" BrandID="1399344" BrandTier="0007"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAQjoATAAAAA==" FareBasis="YFF77WW" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP226744" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" ProviderCode="1G">gws-eJxNTkkOwzAIfEw0d0AOSW62sqgHF6ltIsuX/v8ZJU4OHYllNDAQYxSSQD1T/EeHb5cfsGMGDOJRj4xAKkwXBZH2qNs2DKWgmaiMrlhTr8ptbuZl8oJVV21SNcedn5ZBtzERMc7TnxdO4jsO5jD1SLu3lpY9vUth4qay6OhrDP/1Bwy3LKE=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAmnoATAAAAA==" BrandID="1403968" BrandTier="0007"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAsioATAAAAA==" FareBasis="Y2WY" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP300375" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAsioATAAAAA==" ProviderCode="1G">gws-eJxNTrsOgzAM/Bh0+8UhKNlCC1UHalVVI5Sl//8ZdQIDJ9ln+/zKOQtlZHDMVwz4DfqEljugELNaNgQfXYhHCrrbiip7Rd8wSbSydulg15r4kHU0wpLWqUtVDad/6QaeW0k6tLtooU0YGL0n3rOFOi9fKZ+d9F1lSmmyJ2Bv/gExpity</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAonoATAAAAA==" BrandID="1412548" BrandTier="0009"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAsjoATAAAAA==" FareBasis="Y2WY" PassengerTypeCode="ADT" Origin="YUL" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP300375" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAsjoATAAAAA==" ProviderCode="1G">gws-eJxNTssOAiEM/JjN3IeyELixuhgPKzFGsuHi/3+GBTw4STttp6+UklBWOsP0jwWfpdxR6hUoELVHOeBsMC7AaNpAc8locjaMDZ5ey2VIk01v4k3yqoQ9Zj+lDrTp6wH+tpI06HfRQ51QMFhLPDcNy7a/pb5O0g6VMUavT0Df/AIlSyti</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAqnoATAAAAA==" BrandID="1412548" BrandTier="0009"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKA7joATAAAAA==" FareBasis="YFF77WW" PassengerTypeCode="ADT" Origin="MNL" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP226742" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKA7joATAAAAA==" ProviderCode="1G">gws-eJxNTkkOwzAIfEw0d0AOSW62sqgHF6ltIsuX/v8ZJU4OHYllNDAQYxSSQD1T/EeHb5cfsGMGDOJRj4xAKkwXBZH2qNs2DKWgmaiMrlhTr8ptbuZl8oJVV21SNcedn5ZBtzERMc7TnxdO4jsO5jD1SLu3lpY9vUth4qay6OhrDP/1Bwy3LKE=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAsnoATAAAAA==" BrandID="1403968" BrandTier="0007"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKADkoATAAAAA==" FareBasis="Y2WY" PassengerTypeCode="ADT" Origin="YUL" Destination="NRT" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-06" Amount="PHP287361" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKADkoATAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlu6Fput3StZl6mKKpalTlsv8/YyTZYZYAI4MhhKBUx0kY/jHgM6QdKa9Aglqk48Qk7uZGiLUFlEdE0augOXj6OtWkXqUO8anRWcF2j75LFSg95xf4cyUpqHdRqW0Y6N1EvBejadlOzcdFjk3lPDvL9suOLyifK1c=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAunoATAAAAA==" BrandID="1412548" BrandTier="0009"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAOkoATAAAAA==" FareBasis="LNCP1" PassengerTypeCode="ADT" Origin="NRT" Destination="MNL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-07" Amount="PHP12675" NegotiatedFare="false" NotValidBefore="2024-06-07" NotValidAfter="2024-06-07">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAOkoATAAAAA==" ProviderCode="1G">gws-eJxNTUEOg0AIfIyZO6Cte1yzavagxLb2sBf//wxZtEkhwJCBmRijkHT0YIr/0eBoNEO/CVCI1aoLRHrqfSsgooBF08Zwhacx6lnuyX41SWIbmHkOF1UDxbu+d+MuWRNkVF9UaB/4gSkb1GHcPwMHs22pY37dZLXNOAFQ3Cs/</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAwnoATAAAAA==" BrandID="1412652" BrandTier="0002"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAPkoATAAAAA==" FareBasis="LNCP1" PassengerTypeCode="ADT" Origin="MNL" Destination="NRT" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP12675" NegotiatedFare="false" NotValidBefore="2024-06-28" NotValidAfter="2024-06-28">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAPkoATAAAAA==" ProviderCode="1G">gws-eJxNTkEOg0AIfIyZO6DWPa7ZajxY0qo9eOn/n9HZVRNJgCEzDMQYTayRViXeo8Kv8gn+TYDDmL5sMOukQ81ph4gEzJ7eiuLwsJBVhTu6FtVgSdkw6hgKtTvjrC+fyR22NFTku8iQG7jAMBF6/9zWXgPP1tKofk6Sm3z0D1reK04=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKAynoATAAAAA==" BrandID="1412652" BrandTier="0002"/>
+        </air:FareInfo>
+        <air:FareInfo Key="0UZ/U9TqWDKAQkoATAAAAA==" FareBasis="Y2WY" PassengerTypeCode="ADT" Origin="NRT" Destination="YUL" EffectiveDate="2024-05-11T02:36:00.000+08:00" DepartureDate="2024-06-28" Amount="PHP287379" NegotiatedFare="false">
+          <air:BaggageAllowance>
+            <air:NumberOfPieces>2</air:NumberOfPieces>
+            <air:MaxWeight/>
+          </air:BaggageAllowance>
+          <air:FareRuleKey FareInfoRef="0UZ/U9TqWDKAQkoATAAAAA==" ProviderCode="1G">gws-eJxNTrsOgzAM/Bh0+8U4QLdQoOpQWRUiQln6/59RJ2XoSfbZPr9SSkJRxsD0jw6fzp6wvAAGcSv5hRh00h5aUzDcNxQ5C9qGQSYvW5N+HGoTH7KpE9bbNjSpmOPyth/gtZVkQL2LGvqEg4NG4j17aPN6SN5Psm8qx1HdB/ibXzHLK2k=</air:FareRuleKey>
+          <air:Brand Key="0UZ/U9TqWDKA0noATAAAAA==" BrandID="1412548" BrandTier="0009"/>
+        </air:FareInfo>
+      </air:FareInfoList>
+      <air:RouteList>
+        <air:Route Key="0UZ/U9TqWDKAXkoATAAAAA==">
+          <air:Leg Key="0UZ/U9TqWDKAZeoATAAAAA==" Group="0" Origin="YMQ" Destination="MNL"/>
+          <air:Leg Key="0UZ/U9TqWDKAeeoATAAAAA==" Group="1" Origin="MNL" Destination="YMQ"/>
+        </air:Route>
+      </air:RouteList>
+      <air:AirPricePointList>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAYkoATAAAAA==" TotalPrice="PHP58236" BasePrice="CAD389.00" ApproximateTotalPrice="PHP58236" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP42216" ApproximateTaxes="PHP42216" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAZkoATAAAAA==" TotalPrice="PHP58236" BasePrice="CAD389.00" ApproximateTotalPrice="PHP58236" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP42216" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAfeoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAakoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAbkoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAckoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAdkoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP1986" Key="0UZ/U9TqWDKAekoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKAfkoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKAgkoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAhkoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAikoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKAjkoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKAkkoATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN SQ MNL 143.60KNCCA 3K X/SIN LX X/ZRH LX YMQ 143.60KNCCA NUC287.20END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAlkoATAAAAA==" TravelTime="P1DT18H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAlcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKApkoATAAAAA==" TravelTime="P2DT5H20M0S">
+                  <air:BookingInfo BookingCode="I" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAncoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKApcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKArcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAtkoATAAAAA==" TotalPrice="PHP58236" BasePrice="CAD389.00" ApproximateTotalPrice="PHP58236" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP42216" ApproximateTaxes="PHP42216" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAgeoATAAAAA==" TotalPrice="PHP58236" BasePrice="CAD389.00" ApproximateTotalPrice="PHP58236" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP42216" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAfeoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAheoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAieoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAjeoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAkeoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP1986" Key="0UZ/U9TqWDKAleoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKAmeoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKAneoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAoeoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKApeoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKAqeoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKAreoATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN 3K MNL 143.60KNCCA 3K X/SIN LX X/ZRH LX YMQ 143.60KNCCA NUC287.20END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAseoATAAAAA==" TravelTime="P1DT20H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="I" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAtcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAweoATAAAAA==" TravelTime="P2DT5H20M0S">
+                  <air:BookingInfo BookingCode="I" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAncoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKApcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAfeoATAAAAA==" SegmentRef="0UZ/U9TqWDKArcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAukoATAAAAA==" TotalPrice="PHP59396" BasePrice="CAD389.00" ApproximateTotalPrice="PHP59396" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP43376" ApproximateTaxes="PHP43376" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAvkoATAAAAA==" TotalPrice="PHP59396" BasePrice="CAD389.00" ApproximateTotalPrice="PHP59396" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP43376" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA0eoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAwkoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAxkoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAykoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAzkoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKA0koATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKA1koATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKA2koATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKA3koATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKA4koATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA5koATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKA6koATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKA7koATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKA8koATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN SQ MNL 143.60KNCCA SQ X/SIN LH X/FRA LH YMQ 143.60KNCCA NUC287.20END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKA9koATAAAAA==" TravelTime="P1DT18H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAlcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKABloATAAAAA==" TravelTime="P1DT5H20M0S">
+                  <air:BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAvcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAFloATAAAAA==" TotalPrice="PHP59396" BasePrice="CAD389.00" ApproximateTotalPrice="PHP59396" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP43376" ApproximateTaxes="PHP43376" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKA1eoATAAAAA==" TotalPrice="PHP59396" BasePrice="CAD389.00" ApproximateTotalPrice="PHP59396" ApproximateBasePrice="PHP16020" EquivalentBasePrice="PHP16020" Taxes="PHP43376" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA0eoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKA2eoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKA3eoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKA4eoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKA5eoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKA6eoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKA7eoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKA8eoATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKA9eoATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKA+eoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA/eoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAAfoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKABfoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKACfoATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN 3K MNL 143.60KNCCA SQ X/SIN LH X/FRA LH YMQ 143.60KNCCA NUC287.20END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKADfoATAAAAA==" TravelTime="P1DT20H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="I" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAtcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAHfoATAAAAA==" TravelTime="P1DT5H20M0S">
+                  <air:BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAvcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA0eoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAGloATAAAAA==" TotalPrice="PHP62484" BasePrice="CAD464.00" ApproximateTotalPrice="PHP62484" ApproximateBasePrice="PHP19108" EquivalentBasePrice="PHP19108" Taxes="PHP43376" ApproximateTaxes="PHP43376" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAHloATAAAAA==" TotalPrice="PHP62484" BasePrice="CAD464.00" ApproximateTotalPrice="PHP62484" ApproximateBasePrice="PHP19108" EquivalentBasePrice="PHP19108" Taxes="PHP43376" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAUeoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAIloATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAJloATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAKloATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKALloATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKAMloATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKANloATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKAOloATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKAPloATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKAQloATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKARloATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKASloATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKATloATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKAUloATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN SQ MNL 143.60KNCCA 3K X/SIN LH X/FRA LH YMQ 198.94LNCCA NUC342.54END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAVloATAAAAA==" TravelTime="P1DT18H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="N" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAlcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAZloATAAAAA==" TravelTime="P1DT6H10M0S">
+                  <air:BookingInfo BookingCode="Z" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKA1coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAdloATAAAAA==" TotalPrice="PHP62484" BasePrice="CAD464.00" ApproximateTotalPrice="PHP62484" ApproximateBasePrice="PHP19108" EquivalentBasePrice="PHP19108" Taxes="PHP43376" ApproximateTaxes="PHP43376" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAGeoATAAAAA==" TotalPrice="PHP62484" BasePrice="CAD464.00" ApproximateTotalPrice="PHP62484" ApproximateBasePrice="PHP19108" EquivalentBasePrice="PHP19108" Taxes="PHP43376" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAFeoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAUeoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAHeoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAIeoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAJeoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAKeoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKALeoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP250" Key="0UZ/U9TqWDKAMeoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP500" Key="0UZ/U9TqWDKANeoATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKAOeoATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKAPeoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAQeoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAReoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP32616" Key="0UZ/U9TqWDKASeoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKATeoATAAAAA=="/>
+            <air:FareCalc>YMQ LX X/ZRH LX X/SIN 3K MNL 143.60KNCCA 3K X/SIN LH X/FRA LH YMQ 198.94LNCCA NUC342.54END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAVeoATAAAAA==" TravelTime="P1DT20H20M0S">
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="I" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAFeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAtcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAaeoATAAAAA==" TravelTime="P1DT6H10M0S">
+                  <air:BookingInfo BookingCode="Z" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKA1coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAUeoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAeloATAAAAA==" TotalPrice="PHP66245" BasePrice="CAD545.00" ApproximateTotalPrice="PHP66245" ApproximateBasePrice="PHP22444" EquivalentBasePrice="PHP22444" Taxes="PHP43801" ApproximateTaxes="PHP43801" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAjfoATAAAAA==" TotalPrice="PHP66245" BasePrice="CAD545.00" ApproximateTotalPrice="PHP66245" ApproximateBasePrice="PHP22444" EquivalentBasePrice="PHP22444" Taxes="PHP43801" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKALfoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAifoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAkfoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAlfoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAmfoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1937" Key="0UZ/U9TqWDKAnfoATAAAAA=="/>
+            <air:TaxInfo Category="M6" Amount="PHP182" Key="0UZ/U9TqWDKAofoATAAAAA=="/>
+            <air:TaxInfo Category="TR" Amount="PHP604" Key="0UZ/U9TqWDKApfoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP38" Key="0UZ/U9TqWDKAqfoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKArfoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAsfoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP37204" Key="0UZ/U9TqWDKAtfoATAAAAA=="/>
+            <air:FareCalc>YMQ AC X/YTO Q60.00 TK X/IST TK MNL 128.74VKV3XPX TK X/IST TK YMQ Q MNLYMQ51.64 161.95LKV3XPX NUC402.33END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>USD260.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Non-Refundable marked with No Show" Value="Anytime And Before Departure"/>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAufoATAAAAA==" TravelTime="P1DT13H0M0S">
+                  <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA3coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA7coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAyfoATAAAAA==" TravelTime="P1DT0H55M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAifoATAAAAA==" SegmentRef="0UZ/U9TqWDKA9coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAifoATAAAAA==" SegmentRef="0UZ/U9TqWDKA/coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAfloATAAAAA==" TotalPrice="PHP68098" BasePrice="CAD590.00" ApproximateTotalPrice="PHP68098" ApproximateBasePrice="PHP24297" EquivalentBasePrice="PHP24297" Taxes="PHP43801" ApproximateTaxes="PHP43801" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKASgoATAAAAA==" TotalPrice="PHP68098" BasePrice="CAD590.00" ApproximateTotalPrice="PHP68098" ApproximateBasePrice="PHP24297" EquivalentBasePrice="PHP24297" Taxes="PHP43801" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKA2foATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKARgoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKATgoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAUgoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAVgoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1937" Key="0UZ/U9TqWDKAWgoATAAAAA=="/>
+            <air:TaxInfo Category="M6" Amount="PHP182" Key="0UZ/U9TqWDKAXgoATAAAAA=="/>
+            <air:TaxInfo Category="TR" Amount="PHP604" Key="0UZ/U9TqWDKAYgoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP38" Key="0UZ/U9TqWDKAZgoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAagoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAbgoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP37204" Key="0UZ/U9TqWDKAcgoATAAAAA=="/>
+            <air:FareCalc>YMQ TK X/YTO Q60.00 TK X/IST TK MNL 161.94LKV3XPX TK X/IST TK YMQ Q MNLYMQ51.64 161.95LKV3XPX NUC435.53END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>USD260.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Non-Refundable marked with No Show" Value="Anytime And Before Departure"/>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAdgoATAAAAA==" TravelTime="P1DT14H0M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKABdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA7coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+                <air:Option Key="0UZ/U9TqWDKAhgoATAAAAA==" TravelTime="P1DT15H35M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKABdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKAEdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAlgoATAAAAA==" TravelTime="P1DT0H55M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKARgoATAAAAA==" SegmentRef="0UZ/U9TqWDKA9coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKARgoATAAAAA==" SegmentRef="0UZ/U9TqWDKA/coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAgloATAAAAA==" TotalPrice="PHP84692" BasePrice="CAD985.00" ApproximateTotalPrice="PHP84692" ApproximateBasePrice="PHP40564" EquivalentBasePrice="PHP40564" Taxes="PHP44128" ApproximateTaxes="PHP44128" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAMfoATAAAAA==" TotalPrice="PHP84692" BasePrice="CAD985.00" ApproximateTotalPrice="PHP84692" ApproximateBasePrice="PHP40564" EquivalentBasePrice="PHP40564" Taxes="PHP44128" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKALfoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAXfoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKANfoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAOfoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAPfoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP2226" Key="0UZ/U9TqWDKAQfoATAAAAA=="/>
+            <air:TaxInfo Category="M6" Amount="PHP182" Key="0UZ/U9TqWDKARfoATAAAAA=="/>
+            <air:TaxInfo Category="TR" Amount="PHP604" Key="0UZ/U9TqWDKASfoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP76" Key="0UZ/U9TqWDKATfoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAUfoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAVfoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP37204" Key="0UZ/U9TqWDKAWfoATAAAAA=="/>
+            <air:FareCalc>YMQ AC X/YTO Q60.00 TK X/IST TK MNL 128.74VKV3XPX TK X/IST TK X/YTO AC YMQ Q MNLYMQ51.64 486.59SKV3XPX NUC726.97END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>USD260.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Non-Refundable marked with No Show" Value="Anytime And Before Departure"/>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAZfoATAAAAA==" TravelTime="P1DT13H0M0S">
+                  <air:BookingInfo BookingCode="T" BookingCount="8" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA3coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKALfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA7coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAdfoATAAAAA==" TravelTime="P1DT7H53M0S">
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAXfoATAAAAA==" SegmentRef="0UZ/U9TqWDKA9coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAXfoATAAAAA==" SegmentRef="0UZ/U9TqWDKAGdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="K" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAXfoATAAAAA==" SegmentRef="0UZ/U9TqWDKAIdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAhloATAAAAA==" TotalPrice="PHP86545" BasePrice="CAD1030.00" ApproximateTotalPrice="PHP86545" ApproximateBasePrice="PHP42417" EquivalentBasePrice="PHP42417" Taxes="PHP44128" ApproximateTaxes="PHP44128" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKA3foATAAAAA==" TotalPrice="PHP86545" BasePrice="CAD1030.00" ApproximateTotalPrice="PHP86545" ApproximateBasePrice="PHP42417" EquivalentBasePrice="PHP42417" Taxes="PHP44128" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKA2foATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKACgoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKA4foATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKA5foATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKA6foATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP2226" Key="0UZ/U9TqWDKA7foATAAAAA=="/>
+            <air:TaxInfo Category="M6" Amount="PHP182" Key="0UZ/U9TqWDKA8foATAAAAA=="/>
+            <air:TaxInfo Category="TR" Amount="PHP604" Key="0UZ/U9TqWDKA9foATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP76" Key="0UZ/U9TqWDKA+foATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA/foATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAAgoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP37204" Key="0UZ/U9TqWDKABgoATAAAAA=="/>
+            <air:FareCalc>YMQ TK X/YTO Q60.00 TK X/IST TK MNL 161.94LKV3XPX TK X/IST TK X/YTO TK YMQ Q MNLYMQ51.64 486.59SKV3XPX NUC760.17END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>USD260.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Non-Refundable marked with No Show" Value="Anytime And Before Departure"/>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAEgoATAAAAA==" TravelTime="P1DT14H0M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKABdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA7coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+                <air:Option Key="0UZ/U9TqWDKAIgoATAAAAA==" TravelTime="P1DT15H35M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKABdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA2foATAAAAA==" SegmentRef="0UZ/U9TqWDKAEdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAMgoATAAAAA==" TravelTime="P1DT7H53M0S">
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACgoATAAAAA==" SegmentRef="0UZ/U9TqWDKA9coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACgoATAAAAA==" SegmentRef="0UZ/U9TqWDKAGdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACgoATAAAAA==" SegmentRef="0UZ/U9TqWDKAKdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAiloATAAAAA==" TotalPrice="PHP89677" BasePrice="CAD1114.00" ApproximateTotalPrice="PHP89677" ApproximateBasePrice="PHP45876" EquivalentBasePrice="PHP45876" Taxes="PHP43801" ApproximateTaxes="PHP43801" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAqgoATAAAAA==" TotalPrice="PHP89677" BasePrice="CAD1114.00" ApproximateTotalPrice="PHP89677" ApproximateBasePrice="PHP45876" EquivalentBasePrice="PHP45876" Taxes="PHP43801" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="TK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKApgoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA1goATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKArgoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAsgoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAtgoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1937" Key="0UZ/U9TqWDKAugoATAAAAA=="/>
+            <air:TaxInfo Category="M6" Amount="PHP182" Key="0UZ/U9TqWDKAvgoATAAAAA=="/>
+            <air:TaxInfo Category="TR" Amount="PHP604" Key="0UZ/U9TqWDKAwgoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP38" Key="0UZ/U9TqWDKAxgoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAygoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAzgoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP37204" Key="0UZ/U9TqWDKA0goATAAAAA=="/>
+            <air:FareCalc>YMQ AC X/YTO TK X/IST TK MNL 608.32HKVRT TK X/IST TK YMQ Q MNLYMQ51.64 161.94LKV3XPX NUC821.90END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>USD260.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Non-Refundable marked with No Show" Value="Anytime And Before Departure"/>
+              <air:RestrictionType Name="No Show" Value="After Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKA3goATAAAAA==" TravelTime="P1DT14H0M0S">
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKApgoATAAAAA==" SegmentRef="0UZ/U9TqWDKADdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKApgoATAAAAA==" SegmentRef="0UZ/U9TqWDKA5coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKApgoATAAAAA==" SegmentRef="0UZ/U9TqWDKA7coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKA7goATAAAAA==" TravelTime="P1DT0H55M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1goATAAAAA==" SegmentRef="0UZ/U9TqWDKA9coATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1goATAAAAA==" SegmentRef="0UZ/U9TqWDKA/coATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAjloATAAAAA==" TotalPrice="PHP109633" BasePrice="CAD2170.00" ApproximateTotalPrice="PHP109633" ApproximateBasePrice="PHP89363" EquivalentBasePrice="PHP89363" Taxes="PHP20270" ApproximateTaxes="PHP20270" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAWhoATAAAAA==" TotalPrice="PHP109633" BasePrice="CAD2170.00" ApproximateTotalPrice="PHP109633" ApproximateBasePrice="PHP89363" EquivalentBasePrice="PHP89363" Taxes="PHP20270" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="BR" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKA+goATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAVhoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAXhoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAYhoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAZhoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP2226" Key="0UZ/U9TqWDKAahoATAAAAA=="/>
+            <air:TaxInfo Category="TW" Amount="PHP1758" Key="0UZ/U9TqWDKAbhoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP76" Key="0UZ/U9TqWDKAchoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAdhoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAehoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1418" Key="0UZ/U9TqWDKAfhoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP10956" Key="0UZ/U9TqWDKAghoATAAAAA=="/>
+            <air:FareCalc>YMQ BR X/YTO BR X/TPE BR MNL Q YMQMNL11.06 911.19HKWNZ BR X/TPE BR X/YTO BR YMQ Q MNLYMQ11.06 667.71VKWNZ NUC1601.02END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Amount>CAD325.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD130.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="No Show" Value="Anytime And Before Departure">
+                <air:Amount>CAD260.00</air:Amount>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAhhoATAAAAA==" TravelTime="P1DT2H30M0S">
+                  <air:BookingInfo BookingCode="H" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKALdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKANdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKAPdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAlhoATAAAAA==" TravelTime="P1DT19H3M0S">
+                  <air:BookingInfo BookingCode="V" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAVhoATAAAAA==" SegmentRef="0UZ/U9TqWDKARdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="3" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAVhoATAAAAA==" SegmentRef="0UZ/U9TqWDKATdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="V" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAVhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAVdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAkloATAAAAA==" TotalPrice="PHP110049" BasePrice="CAD1938.00" ApproximateTotalPrice="PHP110049" ApproximateBasePrice="PHP79809" EquivalentBasePrice="PHP79809" Taxes="PHP30240" ApproximateTaxes="PHP30240" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKArhoATAAAAA==" TotalPrice="PHP110049" BasePrice="CAD1938.00" ApproximateTotalPrice="PHP110049" ApproximateBasePrice="PHP79809" EquivalentBasePrice="PHP79809" Taxes="PHP30240" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="QR" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAqhoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA4hoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAshoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAthoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAuhoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAvhoATAAAAA=="/>
+            <air:TaxInfo Category="G4" Amount="PHP1870" Key="0UZ/U9TqWDKAwhoATAAAAA=="/>
+            <air:TaxInfo Category="PZ" Amount="PHP170" Key="0UZ/U9TqWDKAxhoATAAAAA=="/>
+            <air:TaxInfo Category="QA" Amount="PHP1870" Key="0UZ/U9TqWDKAyhoATAAAAA=="/>
+            <air:TaxInfo Category="R9" Amount="PHP312" Key="0UZ/U9TqWDKAzhoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA0hoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKA1hoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP18038" Key="0UZ/U9TqWDKA2hoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP2496" Key="0UZ/U9TqWDKA3hoATAAAAA=="/>
+            <air:FareCalc>YMQ QR X/DOH QR MNL Q YMQMNL5.00Q YMQDOH25.00 649.64SKR5R1SX QR X/DOH QR YMQ Q MNLYMQ5.00 745.55LKR5R1SX NUC1430.19END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Amount>CAD365.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD190.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="No Show" Value="Anytime And Before Departure">
+                <air:Amount>CAD365.00</air:Amount>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKA6hoATAAAAA==" TravelTime="P0DT22H50M0S">
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAqhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAXdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="S" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAqhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAZdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKA9hoATAAAAA==" TravelTime="P1DT2H35M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA4hoATAAAAA==" SegmentRef="0UZ/U9TqWDKAbdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA4hoATAAAAA==" SegmentRef="0UZ/U9TqWDKAddoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAlloATAAAAA==" TotalPrice="PHP119105" BasePrice="CAD2400.00" ApproximateTotalPrice="PHP119105" ApproximateBasePrice="PHP98835" EquivalentBasePrice="PHP98835" Taxes="PHP20270" ApproximateTaxes="PHP20270" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKA/goATAAAAA==" TotalPrice="PHP119105" BasePrice="CAD2400.00" ApproximateTotalPrice="PHP119105" ApproximateBasePrice="PHP98835" EquivalentBasePrice="PHP98835" Taxes="PHP20270" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="BR" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKA+goATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAKhoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAAhoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKABhoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAChoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP2226" Key="0UZ/U9TqWDKADhoATAAAAA=="/>
+            <air:TaxInfo Category="TW" Amount="PHP1758" Key="0UZ/U9TqWDKAEhoATAAAAA=="/>
+            <air:TaxInfo Category="RC" Amount="PHP76" Key="0UZ/U9TqWDKAFhoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAGhoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAHhoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1418" Key="0UZ/U9TqWDKAIhoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP10956" Key="0UZ/U9TqWDKAJhoATAAAAA=="/>
+            <air:FareCalc>YMQ BR X/YTO BR X/TPE BR MNL Q YMQMNL11.06 911.19HKWNZ BR X/TPE BR X/YTO BR YMQ Q MNLYMQ11.06 837.41QKWNZ NUC1770.72END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD65.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="No Show" Value="Anytime And Before Departure">
+                <air:Amount>CAD200.00</air:Amount>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAMhoATAAAAA==" TravelTime="P1DT2H30M0S">
+                  <air:BookingInfo BookingCode="H" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKALdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKANdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="H" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA+goATAAAAA==" SegmentRef="0UZ/U9TqWDKAPdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAQhoATAAAAA==" TravelTime="P1DT1H8M0S">
+                  <air:BookingInfo BookingCode="Q" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAKhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAfdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Q" BookingCount="3" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAKhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAhdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Q" BookingCount="4" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAKhoATAAAAA==" SegmentRef="0UZ/U9TqWDKAjdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAmloATAAAAA==" TotalPrice="PHP182818" BasePrice="CAD3537.00" ApproximateTotalPrice="PHP182818" ApproximateBasePrice="PHP145658" EquivalentBasePrice="PHP145658" Taxes="PHP37160" ApproximateTaxes="PHP37160" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKADioATAAAAA==" TotalPrice="PHP182818" BasePrice="CAD3537.00" ApproximateTotalPrice="PHP182818" ApproximateBasePrice="PHP145658" EquivalentBasePrice="PHP145658" Taxes="PHP37160" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="EK" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKACioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKANioATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAEioATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAFioATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAGioATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAHioATAAAAA=="/>
+            <air:TaxInfo Category="F6" Amount="PHP1236" Key="0UZ/U9TqWDKAIioATAAAAA=="/>
+            <air:TaxInfo Category="ZR" Amount="PHP156" Key="0UZ/U9TqWDKAJioATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAKioATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKALioATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP30284" Key="0UZ/U9TqWDKAMioATAAAAA=="/>
+            <air:FareCalc>YMQ EK X/DXB EK MNL 1518.78XKRZFCA1 EK X/DXB EK YMQ Q MNLYMQ36.89 1053.96BKEESCA1 NUC2609.63END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Amount>CAD400.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation" Value="After Departure">
+                <air:Amount>CAD800.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>CAD400.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="No Show" Value="Anytime And Before Departure">
+                <air:Amount>CAD400.00</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="No Show" Value="After Departure">
+                <air:Amount>CAD800.00</air:Amount>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAPioATAAAAA==" TravelTime="P0DT23H50M0S">
+                  <air:BookingInfo BookingCode="X" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACioATAAAAA==" SegmentRef="0UZ/U9TqWDKAldoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="X" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACioATAAAAA==" SegmentRef="0UZ/U9TqWDKAndoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+                <air:Option Key="0UZ/U9TqWDKASioATAAAAA==" TravelTime="P1DT7H35M0S">
+                  <air:BookingInfo BookingCode="X" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACioATAAAAA==" SegmentRef="0UZ/U9TqWDKAldoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="X" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKACioATAAAAA==" SegmentRef="0UZ/U9TqWDKApdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAVioATAAAAA==" TravelTime="P1DT1H45M0S">
+                  <air:BookingInfo BookingCode="B" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKANioATAAAAA==" SegmentRef="0UZ/U9TqWDKArdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="B" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKANioATAAAAA==" SegmentRef="0UZ/U9TqWDKAtdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+                <air:Option Key="0UZ/U9TqWDKAYioATAAAAA==" TravelTime="P1DT20H5M0S">
+                  <air:BookingInfo BookingCode="B" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKANioATAAAAA==" SegmentRef="0UZ/U9TqWDKAvdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="B" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKANioATAAAAA==" SegmentRef="0UZ/U9TqWDKAxdoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAnloATAAAAA==" TotalPrice="PHP389618" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP389618" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP26689" ApproximateTaxes="PHP26689" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAoloATAAAAA==" TotalPrice="PHP389618" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP389618" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP26689" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA1ioATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAploATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAqloATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKArloATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAsloATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKAtloATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKAuloATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKAvloATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="JFK"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKAwloATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKAxloATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKAyloATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP125" Key="0UZ/U9TqWDKAzloATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP250" Key="0UZ/U9TqWDKA0loATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKA1loATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA2loATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKA3loATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP16461" Key="0UZ/U9TqWDKA4loATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKA5loATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/NYC KE X/SEL Q166.00 KE MNL M2273.92YRT 3K X/SIN LX X/ZRH LX YMQ M4062.10YFF77WW NUC6502.02END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKA6loATAAAAA==" TravelTime="P1DT4H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKAzdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA1doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKA+loATAAAAA==" TravelTime="P2DT5H20M0S">
+                  <air:BookingInfo BookingCode="P" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKAncoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKApcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKArcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKACmoATAAAAA==" TotalPrice="PHP389618" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP389618" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP26689" ApproximateTaxes="PHP26689" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKA2ioATAAAAA==" TotalPrice="PHP389618" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP389618" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP26689" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="LX" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA1ioATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKA3ioATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKA4ioATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKA5ioATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKA6ioATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKA7ioATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKA8ioATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKA9ioATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="DTW"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKA+ioATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKA/ioATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKAAjoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP125" Key="0UZ/U9TqWDKABjoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP250" Key="0UZ/U9TqWDKACjoATAAAAA=="/>
+            <air:TaxInfo Category="CH" Amount="PHP993" Key="0UZ/U9TqWDKADjoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAEjoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAFjoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP16461" Key="0UZ/U9TqWDKAGjoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1380" Key="0UZ/U9TqWDKAHjoATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/DTT KE X/SEL Q166.00 KE MNL M2273.92YRT 3K X/SIN LX X/ZRH LX YMQ M4062.10YFF77WW NUC6502.02END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAIjoATAAAAA==" TravelTime="P1DT2H55M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA5doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA7doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAMjoATAAAAA==" TravelTime="P2DT5H20M0S">
+                  <air:BookingInfo BookingCode="P" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKAncoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKApcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA1ioATAAAAA==" SegmentRef="0UZ/U9TqWDKArcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKADmoATAAAAA==" TotalPrice="PHP390533" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP390533" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP27604" ApproximateTaxes="PHP27604" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAEmoATAAAAA==" TotalPrice="PHP390533" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP390533" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP27604" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="SQ" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAQjoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAFmoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAGmoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAHmoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAImoATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKAJmoATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKAKmoATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKALmoATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="JFK"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKAMmoATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKANmoATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKAOmoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP125" Key="0UZ/U9TqWDKAPmoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP250" Key="0UZ/U9TqWDKAQmoATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKARmoATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKASmoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKATmoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAUmoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP16461" Key="0UZ/U9TqWDKAVmoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1135" Key="0UZ/U9TqWDKAWmoATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/NYC KE X/SEL Q166.00 KE MNL M2273.92YRT SQ X/SIN LH X/FRA LH YMQ M4062.10YFF77WW NUC6502.02END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAXmoATAAAAA==" TravelTime="P1DT4H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKAzdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA1doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAbmoATAAAAA==" TravelTime="P1DT5H20M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAvcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAfmoATAAAAA==" TotalPrice="PHP390533" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP390533" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP27604" ApproximateTaxes="PHP27604" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKARjoATAAAAA==" TotalPrice="PHP390533" BasePrice="CAD8813.00" ApproximateTotalPrice="PHP390533" ApproximateBasePrice="PHP362929" EquivalentBasePrice="PHP362929" Taxes="PHP27604" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="SQ" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAQjoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKASjoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKATjoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAUjoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAVjoATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKAWjoATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKAXjoATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKAYjoATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="DTW"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKAZjoATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKAajoATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKAbjoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP125" Key="0UZ/U9TqWDKAcjoATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP250" Key="0UZ/U9TqWDKAdjoATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKAejoATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKAfjoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAgjoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAhjoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP16461" Key="0UZ/U9TqWDKAijoATAAAAA=="/>
+            <air:TaxInfo Category="YR" Amount="PHP1135" Key="0UZ/U9TqWDKAjjoATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/DTT KE X/SEL Q166.00 KE MNL M2273.92YRT SQ X/SIN LH X/FRA LH YMQ M4062.10YFF77WW NUC6502.02END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAkjoATAAAAA==" TravelTime="P1DT2H55M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA5doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA7doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAojoATAAAAA==" TravelTime="P1DT5H20M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAvcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQjoATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKAgmoATAAAAA==" TotalPrice="PHP455169" BasePrice="CAD10601.00" ApproximateTotalPrice="PHP455169" ApproximateBasePrice="PHP436560" EquivalentBasePrice="PHP436560" Taxes="PHP18609" ApproximateTaxes="PHP18609" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAhmoATAAAAA==" TotalPrice="PHP455169" BasePrice="CAD10601.00" ApproximateTotalPrice="PHP455169" ApproximateBasePrice="PHP436560" EquivalentBasePrice="PHP436560" Taxes="PHP18609" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="NH" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAsioATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAimoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAjmoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAkmoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAlmoATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKAmmoATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKAnmoATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKAomoATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="JFK"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKApmoATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKAqmoATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKArmoATAAAAA=="/>
+            <air:TaxInfo Category="OI" Amount="PHP204" Key="0UZ/U9TqWDKAsmoATAAAAA=="/>
+            <air:TaxInfo Category="SW" Amount="PHP455" Key="0UZ/U9TqWDKAtmoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKAumoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAvmoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP10470" Key="0UZ/U9TqWDKAwmoATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/NYC KE X/SEL Q166.00 KE MNL M2273.92YRT NH X/TYO NH(PA) YMQ M5381.58Y2WY NUC7821.50END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAxmoATAAAAA==" TravelTime="P1DT4H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKAzdoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA1doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKA1moATAAAAA==" TravelTime="P0DT20H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsioATAAAAA==" SegmentRef="0UZ/U9TqWDKA9doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsioATAAAAA==" SegmentRef="0UZ/U9TqWDKA/doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKA4moATAAAAA==" TotalPrice="PHP455169" BasePrice="CAD10601.00" ApproximateTotalPrice="PHP455169" ApproximateBasePrice="PHP436560" EquivalentBasePrice="PHP436560" Taxes="PHP18609" ApproximateTaxes="PHP18609" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAcioATAAAAA==" TotalPrice="PHP455169" BasePrice="CAD10601.00" ApproximateTotalPrice="PHP455169" ApproximateBasePrice="PHP436560" EquivalentBasePrice="PHP436560" Taxes="PHP18609" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="NH" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAbioATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAsioATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAdioATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAeioATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAfioATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAgioATAAAAA=="/>
+            <air:TaxInfo Category="AY" Amount="PHP318" Key="0UZ/U9TqWDKAhioATAAAAA=="/>
+            <air:TaxInfo Category="XA" Amount="PHP218" Key="0UZ/U9TqWDKAiioATAAAAA=="/>
+            <air:TaxInfo Category="XF" Amount="PHP256" Key="0UZ/U9TqWDKAjioATAAAAA==">
+              <common_v52_0:TaxDetail Amount="USD4.50" OriginAirport="DTW"/>
+            </air:TaxInfo>
+            <air:TaxInfo Category="XY" Amount="PHP397" Key="0UZ/U9TqWDKAkioATAAAAA=="/>
+            <air:TaxInfo Category="YC" Amount="PHP396" Key="0UZ/U9TqWDKAlioATAAAAA=="/>
+            <air:TaxInfo Category="BP" Amount="PHP411" Key="0UZ/U9TqWDKAmioATAAAAA=="/>
+            <air:TaxInfo Category="OI" Amount="PHP204" Key="0UZ/U9TqWDKAnioATAAAAA=="/>
+            <air:TaxInfo Category="SW" Amount="PHP455" Key="0UZ/U9TqWDKAoioATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKApioATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAqioATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP10470" Key="0UZ/U9TqWDKArioATAAAAA=="/>
+            <air:FareCalc>YMQ KE X/DTT KE X/SEL Q166.00 KE MNL M2273.92YRT NH X/TYO NH(PA) YMQ M5381.58Y2WY NUC7821.50END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKAtioATAAAAA==" TravelTime="P1DT2H55M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA5doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="6" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA7doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAbioATAAAAA==" SegmentRef="0UZ/U9TqWDKA3doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAxioATAAAAA==" TravelTime="P0DT20H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsioATAAAAA==" SegmentRef="0UZ/U9TqWDKA9doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsioATAAAAA==" SegmentRef="0UZ/U9TqWDKA/doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKA5moATAAAAA==" TotalPrice="PHP562413" BasePrice="CAD12800.00" ApproximateTotalPrice="PHP562413" ApproximateBasePrice="PHP527117" EquivalentBasePrice="PHP527117" Taxes="PHP35296" ApproximateTaxes="PHP35296" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAtjoATAAAAA==" TotalPrice="PHP562413" BasePrice="CAD12800.00" ApproximateTotalPrice="PHP562413" ApproximateBasePrice="PHP527117" EquivalentBasePrice="PHP527117" Taxes="PHP35296" LatestTicketingTime="2024-06-06T23:59:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="NH" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKAsjoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKA7joATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAujoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAvjoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAwjoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAxjoATAAAAA=="/>
+            <air:TaxInfo Category="OI" Amount="PHP204" Key="0UZ/U9TqWDKAyjoATAAAAA=="/>
+            <air:TaxInfo Category="SW" Amount="PHP455" Key="0UZ/U9TqWDKAzjoATAAAAA=="/>
+            <air:TaxInfo Category="L7" Amount="PHP125" Key="0UZ/U9TqWDKA0joATAAAAA=="/>
+            <air:TaxInfo Category="SG" Amount="PHP250" Key="0UZ/U9TqWDKA1joATAAAAA=="/>
+            <air:TaxInfo Category="DE" Amount="PHP604" Key="0UZ/U9TqWDKA2joATAAAAA=="/>
+            <air:TaxInfo Category="RA" Amount="PHP1549" Key="0UZ/U9TqWDKA3joATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKA4joATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKA5joATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP26625" Key="0UZ/U9TqWDKA6joATAAAAA=="/>
+            <air:FareCalc>YMQ NH(PA) X/TYO NH MNL M5381.58Y2WY SQ X/SIN LH X/FRA LH YMQ M4062.10YFF77WW NUC9443.68END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Cancellation" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Percentage>0.00</air:Percentage>
+              </air:RestrictionType>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKA8joATAAAAA==" TravelTime="P0DT20H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsjoATAAAAA==" SegmentRef="0UZ/U9TqWDKABeoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAsjoATAAAAA==" SegmentRef="0UZ/U9TqWDKADeoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKA/joATAAAAA==" TravelTime="P1DT5H20M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA7joATAAAAA==" SegmentRef="0UZ/U9TqWDKAvcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA7joATAAAAA==" SegmentRef="0UZ/U9TqWDKAxcoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKA7joATAAAAA==" SegmentRef="0UZ/U9TqWDKAzcoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                  <air:Connection SegmentIndex="1"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+        <air:AirPricePoint Key="0UZ/U9TqWDKA6moATAAAAA==" TotalPrice="PHP627526" BasePrice="CAD14572.00" ApproximateTotalPrice="PHP627526" ApproximateBasePrice="PHP600090" EquivalentBasePrice="PHP600090" Taxes="PHP27436" ApproximateTaxes="PHP27436" CompleteItinerary="true">
+          <air:AirPricingInfo Key="0UZ/U9TqWDKAEkoATAAAAA==" TotalPrice="PHP627526" BasePrice="CAD14572.00" ApproximateTotalPrice="PHP627526" ApproximateBasePrice="PHP600090" EquivalentBasePrice="PHP600090" Taxes="PHP27436" LatestTicketingTime="2024-05-13T02:36:00.000+08:00" PricingMethod="Guaranteed" ETicketability="Yes" PlatingCarrier="NH" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="0UZ/U9TqWDKADkoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAOkoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAPkoATAAAAA=="/>
+            <air:FareInfoRef Key="0UZ/U9TqWDKAQkoATAAAAA=="/>
+            <air:TaxInfo Category="LI" Amount="PHP550" Key="0UZ/U9TqWDKAFkoATAAAAA=="/>
+            <air:TaxInfo Category="PH" Amount="PHP1620" Key="0UZ/U9TqWDKAGkoATAAAAA=="/>
+            <air:TaxInfo Category="CA" Amount="PHP1418" Key="0UZ/U9TqWDKAHkoATAAAAA=="/>
+            <air:TaxInfo Category="SQ" Amount="PHP1648" Key="0UZ/U9TqWDKAIkoATAAAAA=="/>
+            <air:TaxInfo Category="OI" Amount="PHP408" Key="0UZ/U9TqWDKAJkoATAAAAA=="/>
+            <air:TaxInfo Category="SW" Amount="PHP910" Key="0UZ/U9TqWDKAKkoATAAAAA=="/>
+            <air:TaxInfo Category="XG" Amount="PHP83" Key="0UZ/U9TqWDKALkoATAAAAA=="/>
+            <air:TaxInfo Category="XQ" Amount="PHP165" Key="0UZ/U9TqWDKAMkoATAAAAA=="/>
+            <air:TaxInfo Category="YQ" Amount="PHP20634" Key="0UZ/U9TqWDKANkoATAAAAA=="/>
+            <air:FareCalc>YMQ NH(PA) TYO 5148.43Y2WY NH MNL 227.07LNCP1 NH TYO 227.08LNCP1 NH(PA) YMQ 5148.43Y2WY NUC10751.01END ROE1.355364</air:FareCalc>
+            <air:PassengerType Code="ADT"/>
+            <air:MostRestrictivePenalties>
+              <air:RestrictionType Name="Changes" Value="Anytime And Before Departure">
+                <air:Amount>JPY10000</air:Amount>
+              </air:RestrictionType>
+              <air:RestrictionType Name="Cancellation - Non-Refundable" Value="Anytime and Before Departure"/>
+            </air:MostRestrictivePenalties>
+            <air:FlightOptionsList>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAZeoATAAAAA==" Destination="MNL" Origin="YMQ">
+                <air:Option Key="0UZ/U9TqWDKARkoATAAAAA==" TravelTime="P0DT20H5M0S">
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKADkoATAAAAA==" SegmentRef="0UZ/U9TqWDKABeoATAAAAA=="/>
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAOkoATAAAAA==" SegmentRef="0UZ/U9TqWDKADeoATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+              <air:FlightOption LegRef="0UZ/U9TqWDKAeeoATAAAAA==" Destination="YMQ" Origin="MNL">
+                <air:Option Key="0UZ/U9TqWDKAUkoATAAAAA==" TravelTime="P0DT20H5M0S">
+                  <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAPkoATAAAAA==" SegmentRef="0UZ/U9TqWDKA9doATAAAAA=="/>
+                  <air:BookingInfo BookingCode="Y" BookingCount="9" CabinClass="Economy" FareInfoRef="0UZ/U9TqWDKAQkoATAAAAA==" SegmentRef="0UZ/U9TqWDKA/doATAAAAA=="/>
+                  <air:Connection SegmentIndex="0"/>
+                </air:Option>
+              </air:FlightOption>
+            </air:FlightOptionsList>
+          </air:AirPricingInfo>
+        </air:AirPricePoint>
+      </air:AirPricePointList>
+      <air:BrandList>
+        <air:Brand Key="0UZ/U9TqWDKA2noATAAAAA==" BrandID="1412548" Name="ECO I FULLFLEX 2F" BrandedDetailsAvailable="true" Carrier="NH">
+          <air:Title Type="External" LanguageCode="EN">Eco I Fullflex 2F</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOFULFLX</air:Title>
+          <air:Text Type="Strapline" LanguageCode="EN">Eco I Fullflex 2F</air:Text>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKA4noATAAAAA==" BrandID="1399348" Name="ECONOMY SAVER" BrandedDetailsAvailable="true" Carrier="LX">
+          <air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOSAVER</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Your Economy Saver fare includes:
+
+· Checked baggage (some exceptions exist with additional free allowance).
+· 1 piece of hand baggage up to 8 kg. 
+· Food and beverages.
+· Miles. 
+· Rebooking permitted for an additional fee. 
+· Refund not allowed
+· Pre reserve your preferred seat in advance via the seat map.
+If the flight will be operated by another airline, then there maybe differences in the onboard product or service. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Economy Saver</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/swissinternationalairlines/LX_general_medium_2982.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/swissinternationalairlines/LX_general_medium_2982.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKA6noATAAAAA==" BrandID="1411234" Name="ECONOMY BASIC" BrandedDetailsAvailable="true" Carrier="BR">
+          <air:Title Type="External" LanguageCode="EN">Economy Basic</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">EYBASIC</air:Title>
+          <air:Text Type="Upsell" LanguageCode="EN">Additional baggage allowance when you book onto Economy Basic</air:Text>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Basic fare includes:
+
+- 2pcs x 23kg checked baggage allowance
+- 1pc x 7kg hand-carry allowance
+- Seats selection at a fee*
+- Flight changes, refund and no-show permitted at a fee
+- 50% Infinity MileageLands Miles accrual
+
+*Diamond/Gold Card members can select all seats for free
+*Silver Card members can select Standard seats for free
+
+• Photo might vary depends on aircraft change.
+Please refer to www.evaair.com for the introduction.
+Subject to change without prior notice.
+
+• Please note that if the flight is operated by another airline then the onboard product or service may be different to that described above.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Additional baggage allowance when you book onto Economy Basic</air:Text>
+          <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/evaair/BR_general_large_281063.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/evaair/BR_general_medium_281064.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKA8noATAAAAA==" BrandID="1380518" Name="Economy Flex" BrandedDetailsAvailable="true" Carrier="EK">
+          <air:Title Type="External" LanguageCode="EN">Economy Flex</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">EcoFlex</air:Title>
+          <air:Text Type="Upsell" LanguageCode="EN">Economy Flex lets you choose your seats for free, and you can enjoy more baggage allowance and more flexibility to change your booking.</air:Text>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Flex includes:
+
+• Free seat selection and paid seat selection
+• Earn 0.7 Skywards Mile for every mile flown
+• Checked baggage allowance
+• Cabin baggage 1 bag up to 7kg
+• Regional multicourse dining
+• Complimentary alcoholic and non-alcoholic drinks
+• Up to 5,000 channels of entertainment
+• Free unlimited online chat messaging for Emirates Skywards Gold members 
+• Buy great value Wi-Fi plans
+• Changes permitted for a fee 
+• Refunds permitted for a fee
+
+Please refer to the terms and conditions of the fare and the rules of the destination
+• Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Includes rebooking or refunds against a fee, and seat reservation</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKA+noATAAAAA==" BrandID="1403972" Name="ECONOMY SAVER" BrandedDetailsAvailable="true" Carrier="LH">
+          <air:Title Type="External" LanguageCode="EN">Economy Saver</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOSAVER</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Your Economy Saver fare includes:
+
+· Checked baggage (some exceptions exist with additional free allowance).
+· 1 piece of hand baggage up to 8 kg. 
+· Food and beverages.
+· Miles. 
+· Rebooking permitted for an additional fee. 
+· Refund not allowed
+· Pre reserve your preferred seat in advance via the seat map.
+If the flight will be operated by another airline, then there maybe differences in the onboard product or service. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Economy Saver</air:Text>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="146">https://cdn.travelport.com/lufthansa/LH_general_medium_570.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="146">https://cdn.travelport.com/lufthansa/LH_general_medium_570.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAAooATAAAAA==" BrandID="1399344" Name="ECONOMY FLEX" BrandedDetailsAvailable="true" Carrier="LX">
+          <air:Title Type="External" LanguageCode="EN">Economy Flex</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOFLEX</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Your Economy Flex fare includes:
+
+· Checked baggage 
+· Cabin bag (hand carry)
+· Food and beverages on intercom flights
+· Miles. 
+· Rebooking permitted 
+· Refund permitted 
+· Pre reserve your preferred seat in advance via the seat map.
+If the flight will be operated by another airline, then there maybe differences in the onboard product or service. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Economy Flex</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/swissinternationalairlines/LX_general_medium_2989.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="149">https://cdn.travelport.com/swissinternationalairlines/LX_general_medium_2989.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKACooATAAAAA==" BrandID="1361028" Name="FLEXIBLE" BrandedDetailsAvailable="true" Carrier="TK">
+          <air:Title Type="External" LanguageCode="EN">Flexible</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">FX</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Flexible
+- Cabin bag and checked baggage
+- Changeable and refundable ticket
+- Meal/snack service 
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Flexible</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/turkishairlines/TK_general_medium_281415.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="1200" ImageHeight="800">https://cdn.travelport.com/turkishairlines/TK_general_large_281403.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAEooATAAAAA==" BrandID="1245055" Name="ECONOMY CONVENIENCE" BrandedDetailsAvailable="true" Carrier="QR">
+          <air:Title Type="External" LanguageCode="EN">Economy Convenience</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECONVENIEN</air:Title>
+          <air:Text Type="Upsell" LanguageCode="EN">Benefit from more Qmiles allowance and seat selection</air:Text>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Convenience includes                                                                                           
+- Checked baggage 2 x 23kg                                                                                     - Carry on 7kg (1 piece)                                                                                                   
+- 75% Qmiles accumulation                                                                           
+- Standard seat selection                                                                            
+- Refund to original form of payment (chargeable)                                                                                                                                        - Upgrade with Qmiles    
+-2 Date Change permitted, chargeable from 3rd Change                                                                                
+                                                                                                                       • Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described above.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Economy Convenience</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="141">https://cdn.travelport.com/qatar/QR_general_medium_270.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/qatar/QR_general_large_143563.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAGooATAAAAA==" BrandID="1412652" Name="ECO I VALUE 2C" BrandedDetailsAvailable="true" Carrier="NH">
+          <air:Title Type="External" LanguageCode="EN">Eco I Value 2C</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOVAL</air:Title>
+          <air:Text Type="Strapline" LanguageCode="EN">Eco I Value 2C</air:Text>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAIooATAAAAA==" BrandID="1361031" Name="RESTRICTED" BrandedDetailsAvailable="true" Carrier="TK">
+          <air:Title Type="External" LanguageCode="EN">Restricted</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">RS</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Restricted
+- Cabin bag and checked baggage
+- Sandwich meal service
+- Standard seat selection
+
+• Please note that if the flight is operated by another airline, then the onboard product or service may be different to that described above. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Restricted</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/turkishairlines/TK_general_medium_281398.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="1200" ImageHeight="819">https://cdn.travelport.com/turkishairlines/TK_general_large_281397.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAKooATAAAAA==" BrandID="1411233" Name="ECONOMY STANDARD" BrandedDetailsAvailable="true" Carrier="BR">
+          <air:Title Type="External" LanguageCode="EN">Economy Standard</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">EYSTANDARD</air:Title>
+          <air:Text Type="Upsell" LanguageCode="EN">Complimentary standard seat selection with Economy Standard fares</air:Text>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Standard fare includes:
+
+- 2pcs x 23kg checked baggage allowance
+- 1pc x 7kg hand-carry allowance
+- Complimentary standard seats selection*
+- Flight changes, refund and no-show permitted at a fee
+- 75% Infinity MileageLands Miles accrual
+- Upgrade with miles allowed
+
+*Diamond/Gold Card members can select all seats for free
+
+• Photo might vary depends on aircraft change.
+Please refer to www.evaair.com for the introduction.
+Subject to change without prior notice.
+
+• Please note that if the flight is operated by another airline then the onboard product or service may be different to that described above.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Complimentary standard seat selection with Economy Standard fares</air:Text>
+          <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/evaair/BR_general_large_281063.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/evaair/BR_general_medium_281064.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAMooATAAAAA==" BrandID="1403968" Name="ECONOMY FLEX" BrandedDetailsAvailable="true" Carrier="LH">
+          <air:Title Type="External" LanguageCode="EN">Economy Flex</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">ECOFLEX</air:Title>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Your Economy Flex fare includes:
+
+· Checked baggage 
+· Cabin bag (hand carry)
+· Food and beverages on intercom flights
+· Miles. 
+· Rebooking permitted 
+· Refund permitted 
+· Pre reserve your preferred seat in advance via the seat map.
+If the flight will be operated by another airline, then there maybe differences in the onboard product or service. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Economy Flex</air:Text>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/lufthansa/LH_general_medium_596.jpg</air:ImageLocation>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/lufthansa/LH_general_medium_596.jpg</air:ImageLocation>
+        </air:Brand>
+        <air:Brand Key="0UZ/U9TqWDKAOooATAAAAA==" BrandID="1380522" Name="Economy Flex Plus" BrandedDetailsAvailable="true" Carrier="EK">
+          <air:Title Type="External" LanguageCode="EN">Economy Flex Plus</air:Title>
+          <air:Title Type="Short" LanguageCode="EN">EcoFlxPlus</air:Title>
+          <air:Text Type="Upsell" LanguageCode="EN">Upgrade to Economy Flex Plus to enjoy the full flexibility to make changes to your booking, enjoy more baggage allowance, choose your seats for free, and earn more Skywards Miles.</air:Text>
+          <air:Text Type="MarketingAgent" LanguageCode="EN">Economy Flex Plus includes:
+
+• Free seat selection and paid seat selection
+• Earn 1 Skywards Mile for every mile flown
+• Checked baggage allowance
+• Cabin baggage 1 bag up to 7kg
+• Regional multicourse dining
+• Complimentary alcoholic and non-alcoholic drinks
+• Up to 5,000 channels of entertainment
+• Free unlimited online chat messaging for Emirates Skywards Gold members 
+• Buy great value Wi-Fi plans
+• Eligible to upgrade with Skywards Miles 
+• Changes permitted free of charge
+• Fully refundable
+
+Please refer to the terms and conditions of the fare and the rules of the destination
+• Please note that if the flight is operated by another airline then the onboard product or service will vary. The content on this screen is for information purposes only. Please validate brands and ancillaries at Fare Quote.</air:Text>
+          <air:Text Type="Strapline" LanguageCode="EN">Includes rebooking refunds free of charge</air:Text>
+          <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+          <air:ImageLocation Type="Consumer" ImageWidth="150" ImageHeight="99">https://cdn.travelport.com/emirates/EK_general_medium_281052.JPG</air:ImageLocation>
+        </air:Brand>
+      </air:BrandList>
+    </air:LowFareSearchRsp>
+  </SOAP:Body>
+</SOAP:Envelope>
